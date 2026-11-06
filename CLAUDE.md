@@ -11,7 +11,7 @@ Updating `activeContext.md` (focus, next steps, open questions) and `progress.md
 Scroll-driven interactive data story for a hospital COO about 30-day readmissions. Invented data only. No client or Slalom information.
 
 ## Stack
-Vue 3 + Vite, D3 (scales/paths) or Chart.js, VueUse (`useIntersectionObserver`). Pinia only if needed. Deployed on Netlify/Vercel, password-protected.
+Vue 3 + Vite, D3 (scales/paths) or Chart.js, VueUse (`useIntersectionObserver`). Pinia only if needed. Deployed on Vercel (public; password protection was dropped because the data is fictional, see `docs/memory-bank/decisions.md` #14).
 
 ## Conventions
 - Components in `src/components/`, one per story beat in `src/sections/` (`Beat1Hook.vue`, etc.).

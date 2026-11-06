@@ -1,9 +1,0 @@
-[build]
-  command = "npm run build"
-  publish = "dist"
-
-[build.environment]
-  NODE_VERSION = "22"
-
-# The password gate lives in netlify/edge-functions/auth.js and is attached to
-# every path by the `config` export in that file.

@@ -42,7 +42,7 @@
 
 ## 7. Stack and deploy
 - Vue 3 + Vite, D3 (scales/paths) or Chart.js, Pinia only if needed, VueUse `useIntersectionObserver` for scroll beats.
-- Deploy to Netlify or Vercel with password protection (per reviewer note).
+- Deploy to Vercel. The reviewer note asked for password protection, but the project is fictional and holds no real data, so the site is public (see section 11).
 
 ## 8. Repo structure
 ```
@@ -75,7 +75,7 @@ Update `activeContext.md` and `progress.md` at the end of every session so the h
 11. `Update memory bank, README, and BRIEF to match final build`
 
 ## 10. Review checklist (maps to rubric)
-- [ ] Site live, password-protected, all 6 beats work (all 6 beats work locally; deploy config is in the repo, the live site needs a Netlify account and `SITE_PASSWORD`)
+- [x] Site live and all 6 beats work: https://p302-five.vercel.app/ (public by decision, no password)
 - [x] Filters and slider work, including empty state
 - [x] README and LICENSE in root, scaffolding organised
 - [ ] 10+ meaningful commits over several days (commits so far are all from one day)
@@ -90,5 +90,6 @@ Update `activeContext.md` and `progress.md` at the end of every session so the h
 - **Beat 5:** a linear estimate from one pooled HF + COPD slope, on weekend discharges from the last 12 months. It assumes 8 weekend discharge nurses today and $15,000 per readmission, both illustrative and shown on screen. The projection never drops below the weekday rate.
 - **Beat 6:** the three recommendations use the slider value from beat 5 (minimum 1). Copy summary uses the clipboard and falls back to a selectable text box.
 - **Tooltips:** the hover/tap tooltips became a readout line under each chart, which also works with arrow keys.
-- **Password protection:** HTTP Basic Auth in a Netlify edge function. The password is the `SITE_PASSWORD` environment variable, and the site stays locked if it is unset.
+- **Deploy:** Vercel, public. Password protection was dropped on purpose: the hospital and every number are invented, so there is nothing to protect. A short-lived Netlify password gate was built and then removed.
+- **Context added after the first deploy:** sticky header with a fictional hospital brand ("Northfield General", tagged Fictional), jump links with scroll progress, an intro with who the briefing is for, data facts computed from the data and a glossary, numbered "n of 6" labels, a two-column layout on wide screens, alternating section bands, final values on chart labels, and a fuller footer.
 - **Checks run:** no horizontal overflow at 375, 768 and 1280px; an automated axe audit (WCAG 2 A/AA and best practices) found no violations at those widths or with reduced motion on.

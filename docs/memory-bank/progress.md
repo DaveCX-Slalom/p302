@@ -16,18 +16,20 @@
 - [x] Responsive check at 375/768/1280 (no horizontal overflow)
 - [x] Reduced-motion check (final state shown, no animation)
 - [x] Accessibility pass: axe audit (WCAG 2 A/AA plus best practices) clean at 375/768/1280 and with reduced motion
-- [x] Netlify password gate (edge function, logic tested locally)
 - [x] README and BRIEF.md synced to the build ("As built" section)
+- [x] Deployed on Vercel: https://p302-five.vercel.app/ (public by decision, no password)
+- [x] Context pass: sticky header with fictional brand, intro with facts and glossary, fuller footer, favicon
+- [x] Layout pass: two-column beats, numbered labels, alternating bands, end values on chart labels
+- [x] Re-ran axe (clean at 375/768/1280 and reduced motion) and overflow checks after the redesign
 
 ## In progress
-- [ ] Deploy with password protection (needs a Netlify account and `SITE_PASSWORD`)
+- Nothing in progress.
 
 ## To do
-- [ ] Add the live URL to README
 - [ ] Delete leftover `public/_frames.html` (untracked)
 - [ ] Manual screen reader and real-device pass (not covered by automated checks)
 
 ## Session log
 | Date | Session | Summary |
 |------|---------|---------|
-| 2026-11-06 | 1 | Read brief, reconciled docs (memory bank moved to docs/memory-bank/, field names aligned), logged decisions, built seeded data generator, scaffolded Vue app and tokens, built all six beats (checked at 375/768/1280 with no horizontal overflow). |
+| 2026-11-06 | 1 | Read brief, reconciled docs (memory bank moved to docs/memory-bank/, field names aligned), logged decisions, built seeded data generator, scaffolded Vue app and tokens, built all six beats (checked at 375/768/1280 with no horizontal overflow). Deployed to Vercel, then added header, intro, footer and a two-column layout after the first deploy felt basic. Dropped password protection. |
