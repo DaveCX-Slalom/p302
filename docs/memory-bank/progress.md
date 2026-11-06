@@ -1,7 +1,8 @@
 # Progress
 
 ## Done
-- [ ] BRIEF.md, README, LICENSE, CLAUDE.md
+- [x] BRIEF.md, README, LICENSE, CLAUDE.md
+- [x] Memory bank, story-outline.md, data-notes.md
 
 ## In progress
 - [ ] Data generator
@@ -24,4 +25,4 @@
 ## Session log
 | Date | Session | Summary |
 |------|---------|---------|
-| | 1 | |
+| 2026-11-06 | 1 | Read brief, reconciled docs (memory bank moved to docs/memory-bank/, field names aligned), logged decisions, started data generator. |
