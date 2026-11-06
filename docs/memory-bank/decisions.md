@@ -12,3 +12,4 @@
 | 8 | 2026-11-06 | Field named `nurse_ratio` (patients per nurse), `rate` derived | Matches data-notes; brief updated | `discharge_nurse_ratio` |
 | 9 | 2026-11-06 | Fetch `readmissions.json` at runtime from `public/` | Needed to show real loading and error states | Static JSON import |
 | 10 | 2026-11-06 | Coral `#bf3a30`, grey marks `#76868a` | AA contrast for small labels | Lighter coral `#d9534a` (about 3.7:1) |
+| 11 | 2026-11-06 | Scatter uses two tones (weekend coral, weekday teal) and shows HF + COPD only | Weekday shifts overlap; all-condition correlation is weak (r 0.44) | Three tones, all conditions |

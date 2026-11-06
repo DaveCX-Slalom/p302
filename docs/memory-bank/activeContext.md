@@ -3,12 +3,12 @@
 _Last updated: 2026-11-06 (Session 1)_
 
 ## Current focus
-Beats 1 and 2 built. Next: beats 3 and 4.
+Beats 1 to 4 built. Next: beat 5 (what-if slider).
 
 ## Next steps
-1. Beat 3: grouped bars for HF + COPD by shift (weekend bar ~2x). Reuse `useConditionFilter`.
-2. Beat 4: scatter of `nurse_ratio` vs `rate`, HF + COPD rows, trend line, "relationship, not proof" caveat.
-3. Beat 5 what-if slider (linear slope, HF + COPD weekend only), then beat 6.
+1. Beat 5: slider 0 to 3 added weekend nurses (keyboard operable). Uses the pooled HF + COPD slope (about 5.7 pt per +1 patient/nurse). Show projected weekend readmissions per year and avoided cost; state the $/readmission assumption on screen.
+2. Beat 6: three recommendations plus "Copy summary" button.
+3. Then empty/loading polish, responsive and reduced-motion pass, a11y pass, password-protected deploy.
 
 ## Open questions
 - Cost per readmission for the avoided-cost output (illustrative flat value, must be stated on screen).
@@ -26,3 +26,7 @@ Beats 1 and 2 built. Next: beats 3 and 4.
 - Coral darkened to `#bf3a30` and grey marks to `#76868a` for AA contrast on the off-white background.
 - Browser checks use puppeteer-core in the session scratchpad (not a project dependency).
 - Cleanup: `public/_frames.html` is a leftover temporary test page and should be deleted (not committed).
+- Fixed a `useTween` bug: rAF timestamps can precede `performance.now()`, making easing negative (negative SVG widths). Now clamped.
+- Beats 3 and 4 share the condition chips with beat 2; they only show HF and COPD, so hiding both gives an empty state.
+- Scatter colors weekday day and evening both teal, weekend coral (two tones, two direct labels).
+- Open: the avoided-cost $/readmission value for beat 5 is still to be chosen.

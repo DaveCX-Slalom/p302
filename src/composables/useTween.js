@@ -17,7 +17,8 @@ export function useTween(target, duration = 1400) {
     const t0 = performance.now();
     const ease = (t) => 1 - Math.pow(1 - t, 3);
     const step = (now) => {
-      const t = Math.min(1, (now - t0) / duration);
+      // rAF timestamps can precede t0 by a frame; clamp so easing never goes negative.
+      const t = Math.min(1, Math.max(0, (now - t0) / duration));
       value.value = from + (to - from) * ease(t);
       if (t < 1) raf = requestAnimationFrame(step);
     };

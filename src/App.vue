@@ -2,6 +2,8 @@
 import { useReadmissions } from './composables/useReadmissions.js';
 import Beat1Hook from './sections/Beat1Hook.vue';
 import Beat2Break from './sections/Beat2Break.vue';
+import Beat3Where from './sections/Beat3Where.vue';
+import Beat4Why from './sections/Beat4Why.vue';
 import StateMessage from './components/StateMessage.vue';
 
 const { rows, status, error, retry } = useReadmissions();
@@ -17,6 +19,8 @@ const { rows, status, error, retry } = useReadmissions();
     <template v-else>
       <Beat1Hook :rows="rows" />
       <Beat2Break :rows="rows" />
+      <Beat3Where :rows="rows" />
+      <Beat4Why :rows="rows" />
     </template>
   </main>
   <footer>

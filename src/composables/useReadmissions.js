@@ -55,3 +55,23 @@ export function rateByMonth(data, conditionIds) {
     .sort(([a], [b]) => (a < b ? -1 : 1))
     .map(([month, a]) => ({ month, rate: a.r / a.d, discharges: a.d }));
 }
+
+export const SHIFTS = [
+  { id: 'weekday_day', label: 'Weekday day', lines: ['Weekday', 'day'], short: ['Wkday', 'day'] },
+  { id: 'weekday_evening', label: 'Weekday evening', lines: ['Weekday', 'evening'], short: ['Wkday', 'eve.'] },
+  { id: 'weekend', label: 'Weekend', lines: ['Weekend'], short: ['Weekend'] },
+];
+
+// Blended rate for one condition and one shift over all months.
+export function rateByShift(data, conditionId) {
+  return SHIFTS.map((s) => {
+    let d = 0, r = 0;
+    for (const row of data) {
+      if (row.condition === conditionId && row.shift === s.id) {
+        d += row.discharges;
+        r += row.readmissions;
+      }
+    }
+    return { shift: s.id, label: s.label, lines: s.lines, short: s.short, discharges: d, rate: d ? r / d : 0 };
+  });
+}
