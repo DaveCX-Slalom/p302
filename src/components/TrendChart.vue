@@ -19,7 +19,7 @@ const compact = computed(() => w.value < 520);
 const h = computed(() => (compact.value ? 300 : 400));
 const margin = computed(() => ({
   top: 16,
-  right: compact.value ? 92 : 140,
+  right: compact.value ? 92 : 172,
   bottom: 32,
   left: 40,
 }));
@@ -64,7 +64,12 @@ const yTicks = computed(() => {
 const labels = computed(() => {
   const gap = compact.value ? 13 : 16;
   const items = props.series
-    .map((s) => ({ id: s.id, tone: s.tone, text: s.short ?? s.label, y: y.value(s.values[s.values.length - 1].rate) }))
+    .map((s) => {
+      const end = s.values[s.values.length - 1];
+      const name = s.short ?? s.label;
+      // Show the final value next to the name when there is room for it.
+      return { id: s.id, tone: s.tone, text: compact.value ? name : `${name} ${pct(end.actual ?? end.rate)}`, y: y.value(end.rate) };
+    })
     .sort((a, b) => a.y - b.y);
   for (let i = 1; i < items.length; i++) {
     if (items[i].y - items[i - 1].y < gap) items[i].y = items[i - 1].y + gap;

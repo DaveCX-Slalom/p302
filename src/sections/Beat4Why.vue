@@ -65,52 +65,42 @@ const summary = computed(() =>
 </script>
 
 <template>
-  <section ref="el" class="beat" aria-labelledby="b4-title">
-    <div class="text">
-      <h2 id="b4-title">Fewer nurses at discharge, more patients back.</h2>
-      <p>
-        Each dot is one month on one shift. The thinner the nurse staffing, the higher the share of
-        patients who return.
-      </p>
+  <section id="staffing" ref="el" class="beat alt" aria-labelledby="b4-title">
+    <div class="beat-inner">
+      <div class="beat-text">
+        <p class="kicker">4 of 6 · A likely reason</p>
+        <h2 id="b4-title">Fewer nurses at discharge, more patients back.</h2>
+        <p>
+          Each dot is one month on one shift. The thinner the nurse staffing, the higher the share of
+          patients who return.
+        </p>
+        <p v-if="fit" class="note">
+          The link is {{ strength }} (r = {{ fit.r.toFixed(2) }}). Each extra patient per nurse goes with about
+          {{ perPatient }} more readmissions per 100 discharges.
+        </p>
+        <p class="callout teal">This shows a relationship, not proof of cause.</p>
+      </div>
+      <div class="beat-stage">
+        <ConditionChips />
+        <StateMessage
+          v-if="!points.length"
+          kind="empty"
+          message="Heart failure and COPD are both hidden. Turn one back on to see the staffing link."
+          @action="reset"
+        />
+        <ScatterChart
+          v-else
+          :points="points"
+          :trend="fit"
+          :clusters="clusters"
+          :reveal="reveal"
+          title="Readmission rate against patients per discharge nurse"
+          :summary="summary"
+          x-label="Patients per discharge nurse (higher = thinner staffing)"
+          x-label-short="Patients per nurse (higher = thinner)"
+          y-label="Readmission rate"
+        />
+      </div>
     </div>
-    <ConditionChips />
-    <StateMessage
-      v-if="!points.length"
-      kind="empty"
-      message="Heart failure and COPD are both hidden. Turn one back on to see the staffing link."
-      @action="reset"
-    />
-    <ScatterChart
-      v-else
-      :points="points"
-      :trend="fit"
-      :clusters="clusters"
-      :reveal="reveal"
-      title="Readmission rate against patients per discharge nurse"
-      :summary="summary"
-      x-label="Patients per discharge nurse (higher = thinner staffing)"
-      x-label-short="Patients per nurse (higher = thinner)"
-      y-label="Readmission rate"
-    />
-    <p v-if="fit" class="note">
-      The link is {{ strength }} (r = {{ fit.r.toFixed(2) }}). Each extra patient per nurse goes with about
-      {{ perPatient }} more readmissions per 100 discharges.
-    </p>
-    <p class="callout">This shows a relationship, not proof of cause.</p>
   </section>
 </template>
-
-<style scoped>
-.beat {
-  min-height: 100vh; display: flex; flex-direction: column; justify-content: center;
-  gap: var(--space-3); padding: var(--space-6) var(--gutter);
-  max-width: calc(var(--chart-max) + 2 * var(--gutter)); margin: 0 auto;
-}
-.text { max-width: var(--measure); }
-.note { max-width: var(--measure); margin: 0; color: var(--color-ink-muted); }
-.callout {
-  max-width: var(--measure); padding: var(--space-3); margin: 0;
-  border-left: 4px solid var(--color-teal); background: var(--color-teal-tint);
-  border-radius: 0 var(--radius) var(--radius) 0; font-weight: 600;
-}
-</style>

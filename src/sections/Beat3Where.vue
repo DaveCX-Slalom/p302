@@ -54,42 +54,33 @@ const summary = computed(() =>
 </script>
 
 <template>
-  <section ref="el" class="beat" aria-labelledby="b3-title">
-    <div class="text">
-      <h2 id="b3-title">Same conditions, different shifts.</h2>
-      <p>
-        Heart failure and COPD patients discharged on a weekend come back far more often than those
-        discharged on a weekday.
-      </p>
+  <section id="shifts" ref="el" class="beat" aria-labelledby="b3-title">
+    <div class="beat-inner">
+      <div class="beat-text">
+        <p class="kicker">3 of 6 · Where it happens</p>
+        <h2 id="b3-title">Same conditions, different shifts.</h2>
+        <p>
+          Heart failure and COPD patients discharged on a weekend come back far more often than those
+          discharged on a weekday.
+        </p>
+        <p v-if="multiple" class="callout">Weekend discharges return at about {{ multipleText }} the weekday rate.</p>
+      </div>
+      <div class="beat-stage">
+        <ConditionChips />
+        <StateMessage
+          v-if="!shown.length"
+          kind="empty"
+          message="Heart failure and COPD are both hidden. Turn one back on to compare shifts."
+          @action="reset"
+        />
+        <BarChart
+          v-else
+          :groups="groups"
+          :reveal="reveal"
+          title="Readmission rate by discharge shift for heart failure and COPD"
+          :summary="summary"
+        />
+      </div>
     </div>
-    <ConditionChips />
-    <StateMessage
-      v-if="!shown.length"
-      kind="empty"
-      message="Heart failure and COPD are both hidden. Turn one back on to compare shifts."
-      @action="reset"
-    />
-    <BarChart
-      v-else
-      :groups="groups"
-      :reveal="reveal"
-      title="Readmission rate by discharge shift for heart failure and COPD"
-      :summary="summary"
-    />
-    <p v-if="multiple" class="callout">Weekend discharges return at about {{ multipleText }} the weekday rate.</p>
   </section>
 </template>
-
-<style scoped>
-.beat {
-  min-height: 100vh; display: flex; flex-direction: column; justify-content: center;
-  gap: var(--space-3); padding: var(--space-6) var(--gutter);
-  max-width: calc(var(--chart-max) + 2 * var(--gutter)); margin: 0 auto;
-}
-.text { max-width: var(--measure); }
-.callout {
-  max-width: var(--measure); padding: var(--space-3); margin: 0;
-  border-left: 4px solid var(--color-coral); background: var(--color-coral-tint);
-  border-radius: 0 var(--radius) var(--radius) 0; font-weight: 600;
-}
-</style>

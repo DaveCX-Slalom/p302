@@ -34,7 +34,7 @@ const series = computed(() =>
       tone: c.problem ? 'coral' : 'grey',
       values: c.values.map((p, i) => ({
         month: p.month,
-        actual: p.rate, // readout shows the true value even mid-animation
+        actual: p.rate, // readout and end labels show the true value even mid-animation
         rate: overall.value[i].rate + (p.rate - overall.value[i].rate) * split.value,
       })),
     })),
@@ -43,6 +43,7 @@ const series = computed(() =>
 const pct = (v) => `${(v * 100).toFixed(1)}%`;
 const first = (id) => byCondition.value.find((c) => c.id === id).values[0].rate;
 const last = (id) => { const v = byCondition.value.find((c) => c.id === id).values; return v[v.length - 1].rate; };
+const rise = (id) => `+${((last(id) - first(id)) * 100).toFixed(1)} pts`;
 const summary = computed(
   () =>
     `Line chart of the readmission rate for each condition. Heart failure rose from ${pct(first('heart_failure'))} to ${pct(last('heart_failure'))} and COPD from ${pct(first('copd'))} to ${pct(last('copd'))}. The other four conditions fell, which hides the rise in the overall average.`,
@@ -50,41 +51,27 @@ const summary = computed(
 </script>
 
 <template>
-  <section ref="el" class="beat" aria-labelledby="b2-title">
-    <div class="text">
-      <h2 id="b2-title">The average is hiding two rising problems.</h2>
-      <p>
-        Split the line by condition. Heart failure and COPD are climbing. The other four are
-        improving, and that offsets the rise.
-      </p>
+  <section id="conditions" ref="el" class="beat alt" aria-labelledby="b2-title">
+    <div class="beat-inner">
+      <div class="beat-text">
+        <p class="kicker">2 of 6 · Break it apart</p>
+        <h2 id="b2-title">The average is hiding two rising problems.</h2>
+        <p>
+          Split the line by condition. Heart failure ({{ rise('heart_failure') }}) and COPD ({{ rise('copd') }})
+          are climbing. The other four are improving, and that offsets the rise.
+        </p>
+        <p class="callout">Improvements elsewhere are masking the rise.</p>
+      </div>
+      <div class="beat-stage">
+        <ConditionChips />
+        <StateMessage
+          v-if="isEmpty"
+          kind="empty"
+          message="No conditions selected. Pick at least one to see its trend."
+          @action="reset"
+        />
+        <TrendChart v-else :series="series" title="Readmission rate by condition" :summary="summary" />
+      </div>
     </div>
-    <ConditionChips />
-    <StateMessage
-      v-if="isEmpty"
-      kind="empty"
-      message="No conditions selected. Pick at least one to see its trend."
-      @action="reset"
-    />
-    <TrendChart
-      v-else
-      :series="series"
-      title="Readmission rate by condition"
-      :summary="summary"
-    />
-    <p class="callout">Improvements elsewhere are masking the rise.</p>
   </section>
 </template>
-
-<style scoped>
-.beat {
-  min-height: 100vh; display: flex; flex-direction: column; justify-content: center;
-  gap: var(--space-3); padding: var(--space-6) var(--gutter);
-  max-width: calc(var(--chart-max) + 2 * var(--gutter)); margin: 0 auto;
-}
-.text { max-width: var(--measure); }
-.callout {
-  max-width: var(--measure); padding: var(--space-3); margin: 0;
-  border-left: 4px solid var(--color-coral); background: var(--color-coral-tint);
-  border-radius: 0 var(--radius) var(--radius) 0; font-weight: 600;
-}
-</style>

@@ -23,23 +23,32 @@ const stats = computed(() => {
 const recs = computed(() => {
   const { k, m } = stats.value;
   return [
-    'Prioritize discharge support for heart failure and COPD patients.',
-    `Review weekend discharge staffing. Adding ${k} weekend discharge nurse${k > 1 ? 's' : ''} could avoid about ${Math.round(m.avoided)} readmissions a year (about ${money(m.avoidedCost)}, illustrative).`,
-    'Track readmissions by shift, not just overall.',
+    {
+      title: 'Prioritize discharge support for heart failure and COPD',
+      body: 'These two conditions are the ones rising while the average stays flat.',
+    },
+    {
+      title: 'Review weekend discharge staffing',
+      body: `Adding ${k} weekend discharge nurse${k > 1 ? 's' : ''} could avoid about ${Math.round(m.avoided)} readmissions a year (about ${money(m.avoidedCost)}, illustrative).`,
+    },
+    {
+      title: 'Track readmissions by shift, not just overall',
+      body: 'The overall rate hid this for two years. A shift-level view would have shown it.',
+    },
   ];
 });
 
 const summaryText = computed(() => {
   const s = stats.value;
   return [
-    'Why do patients come back? (illustrative data)',
+    'Why do patients come back? (illustrative data, fictional hospital)',
     '',
     `Finding 1: Readmissions held at ${pct(s.overall)} overall, but heart failure (${pct(s.hf0)} to ${pct(s.hf1)}) and COPD (${pct(s.cp0)} to ${pct(s.cp1)}) are rising.`,
     `Finding 2: Weekend discharges for these two conditions return at ${(s.m.rate / s.m.weekdayRate).toFixed(1)}x the weekday rate (${pct(s.m.rate)} vs ${pct(s.m.weekdayRate)}).`,
     `Finding 3: Staffing is linked to readmissions (a relationship, not proof of cause). A simple estimate says ${s.k} added weekend discharge nurse${s.k > 1 ? 's' : ''} could avoid about ${Math.round(s.m.avoided)} readmissions a year.`,
     '',
     'Next steps:',
-    ...recs.value.map((r, i) => `${i + 1}. ${r}`),
+    ...recs.value.map((r, i) => `${i + 1}. ${r.title}. ${r.body}`),
   ].join('\n');
 });
 
@@ -56,34 +65,48 @@ async function copy() {
 </script>
 
 <template>
-  <section class="beat" aria-labelledby="b6-title">
-    <div class="text">
-      <h2 id="b6-title">Three things to do next.</h2>
-      <p>It's two conditions and one shift pattern, and you can act on it.</p>
+  <section id="next-steps" class="beat alt" aria-labelledby="b6-title">
+    <div class="beat-inner">
+      <div class="beat-text">
+        <p class="kicker">6 of 6 · Next steps</p>
+        <h2 id="b6-title">Three things to do next.</h2>
+        <p>It's two conditions and one shift pattern, and you can act on it.</p>
+      </div>
+      <div class="beat-stage">
+        <ol class="recs">
+          <li v-for="(r, i) in recs" :key="i">
+            <span class="n" aria-hidden="true">{{ i + 1 }}</span>
+            <div>
+              <h3>{{ r.title }}</h3>
+              <p>{{ r.body }}</p>
+            </div>
+          </li>
+        </ol>
+        <div class="actions">
+          <button type="button" class="copy" @click="copy">Copy summary</button>
+          <span class="status" role="status">
+            <template v-if="status === 'copied'">Copied to your clipboard.</template>
+            <template v-else-if="status === 'failed'">Couldn't copy automatically. Select the text below instead.</template>
+          </span>
+        </div>
+        <textarea v-if="status === 'failed'" class="fallback" readonly rows="10" :value="summaryText" aria-label="Summary text" @focus="$event.target.select()"></textarea>
+      </div>
     </div>
-    <ol class="recs">
-      <li v-for="(r, i) in recs" :key="i">{{ r }}</li>
-    </ol>
-    <div class="actions">
-      <button type="button" class="copy" @click="copy">Copy summary</button>
-      <span class="status" role="status">
-        <template v-if="status === 'copied'">Copied to your clipboard.</template>
-        <template v-else-if="status === 'failed'">Couldn't copy automatically. Select the text below instead.</template>
-      </span>
-    </div>
-    <textarea v-if="status === 'failed'" class="fallback" readonly rows="10" :value="summaryText" aria-label="Summary text" @focus="$event.target.select()"></textarea>
   </section>
 </template>
 
 <style scoped>
-.beat {
-  min-height: 80vh; display: flex; flex-direction: column; justify-content: center;
-  gap: var(--space-4); padding: var(--space-6) var(--gutter);
-  max-width: calc(var(--chart-max) + 2 * var(--gutter)); margin: 0 auto;
+.recs { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--space-3); max-width: 40rem; }
+.recs li {
+  display: grid; grid-template-columns: auto 1fr; gap: var(--space-3); align-items: start;
+  background: var(--color-surface); border: 1px solid var(--color-grey-line); border-radius: var(--radius); padding: var(--space-3);
 }
-.text { max-width: var(--measure); }
-.recs { max-width: var(--measure); margin: 0; padding-left: var(--space-4); display: grid; gap: var(--space-3); font-size: var(--text-lg); }
-.recs li::marker { color: var(--color-teal); font-weight: 700; }
+.n {
+  display: grid; place-items: center; width: 2.25rem; height: 2.25rem; border-radius: 50%;
+  background: var(--color-teal); color: var(--color-surface); font-weight: 700;
+}
+h3 { margin: 0 0 var(--space-1); font-family: var(--font-serif); font-size: var(--text-lg); }
+.recs p { margin: 0; color: var(--color-ink-muted); }
 .actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-3); }
 .copy {
   font: inherit; font-weight: 600; min-height: 48px; padding: 0 var(--space-4);
@@ -91,5 +114,5 @@ async function copy() {
 }
 .copy:hover { background: var(--color-ink); }
 .status { color: var(--color-ink-muted); font-size: var(--text-sm); }
-.fallback { width: 100%; max-width: var(--measure); font: inherit; font-size: var(--text-sm); padding: var(--space-3); border: 1px solid var(--color-grey-line); border-radius: var(--radius); }
+.fallback { width: 100%; max-width: 40rem; font: inherit; font-size: var(--text-sm); padding: var(--space-3); border: 1px solid var(--color-grey-line); border-radius: var(--radius); }
 </style>
