@@ -10,6 +10,9 @@ const props = defineProps({
   summary: { type: String, required: true },
   yMax: { type: Number, default: 0.35 },
   reveal: { type: Number, default: 1 },
+  // Optional: { from: barId, to: barId }. Draws a dashed line at the `from` level
+  // across the `to` bar and labels the multiple (for example "2.0x").
+  compare: { type: Object, default: null },
 });
 
 const wrap = ref(null);
@@ -30,6 +33,25 @@ const yTicks = computed(() => {
   return out;
 });
 const pct = (v) => `${(v * 100).toFixed(1)}%`;
+
+// Geometry for the optional comparison line, per group.
+function cmp(g) {
+  if (!props.compare) return null;
+  const from = g.bars.find((b) => b.id === props.compare.from);
+  const to = g.bars.find((b) => b.id === props.compare.to);
+  if (!from || !to || !from.value) return null;
+  const yRef = y.value(from.value);
+  const yTop = y.value(to.value);
+  return {
+    x1: x1.value(from.id),
+    x2: x1.value(to.id) + x1.value.bandwidth(),
+    yRef,
+    labelX: x1.value(to.id) + x1.value.bandwidth() / 2,
+    labelY: (yRef + yTop) / 2 + 5,
+    label: `${(to.value / from.value).toFixed(1)}x`,
+    roomForLabel: yRef - yTop >= 26,
+  };
+}
 </script>
 
 <template>
@@ -56,6 +78,10 @@ const pct = (v) => `${(v * 100).toFixed(1)}%`;
             <text class="shift" :x="x1.bandwidth() / 2" :y="innerH + 18" text-anchor="middle">
               <tspan v-for="(l, i) in (compact && b.short ? b.short : b.lines)" :key="i" :x="x1.bandwidth() / 2" :dy="i ? '1.1em' : 0">{{ l }}</tspan>
             </text>
+          </g>
+          <g v-if="reveal > 0.98 && cmp(g)" aria-hidden="true">
+            <line class="ref" :x1="cmp(g).x1" :x2="cmp(g).x2" :y1="cmp(g).yRef" :y2="cmp(g).yRef" />
+            <text v-if="cmp(g).roomForLabel" class="mult" :x="cmp(g).labelX" :y="cmp(g).labelY" text-anchor="middle">{{ cmp(g).label }}</text>
           </g>
           <text class="group" :x="x0.bandwidth() / 2" :y="innerH + 62" text-anchor="middle">{{ g.label }}</text>
         </g>
@@ -86,6 +112,8 @@ svg { display: block; max-width: 100%; }
 .val { font-size: 13px; font-weight: 700; font-family: var(--font-sans); }
 .val.coral { fill: var(--color-coral); }
 .val.teal { fill: var(--color-ink-muted); }
+.ref { stroke: var(--color-ink); stroke-width: 1.5; stroke-dasharray: 5 4; }
+.mult { fill: var(--color-surface); font-size: 18px; font-weight: 700; font-family: var(--font-serif); }
 .shift { fill: var(--color-ink-muted); font-size: 12px; font-family: var(--font-sans); }
 .group { fill: var(--color-ink); font-size: 14px; font-weight: 600; font-family: var(--font-sans); }
 @media (max-width: 519px) { .shift { font-size: 10px; } .val { font-size: 12px; } }

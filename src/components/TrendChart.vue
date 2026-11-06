@@ -10,6 +10,10 @@ const props = defineProps({
   summary: { type: String, required: true }, // text alternative
   yMax: { type: Number, default: 0.24 },
   reveal: { type: Number, default: 1 }, // 0..1 left-to-right reveal
+  // Notes drawn on the chart: [{ id, i, rate, lines: string[], dx, dy, tone }]
+  // `i` is the month index and `rate` the value the leader line points at.
+  // Hidden on narrow screens, where the same point is made in the text beside the chart.
+  annotations: { type: Array, default: () => [] },
 });
 
 const wrap = ref(null);
@@ -105,6 +109,22 @@ const readout = computed(() => {
   };
 });
 const clipId = `clip-${Math.random().toString(36).slice(2, 8)}`;
+
+const LINE_H = 16;
+const notes = computed(() =>
+  compact.value
+    ? []
+    : props.annotations.map((a) => {
+        const px = x.value(a.i);
+        const py = y.value(a.rate);
+        const tx = px + (a.dx ?? 0);
+        const above = (a.dy ?? 0) < 0;
+        // Text block sits at (tx, ty); the leader meets its nearest edge.
+        const ty = py + (a.dy ?? 0) - (above ? (a.lines.length - 1) * LINE_H : 0);
+        const leaderEnd = above ? ty + (a.lines.length - 1) * LINE_H + 6 : ty - 14;
+        return { ...a, px, py, tx, ty, leaderEnd };
+      }),
+);
 </script>
 
 <template>
@@ -157,6 +177,16 @@ const clipId = `clip-${Math.random().toString(36).slice(2, 8)}`;
           >{{ l.text }}</text>
         </g>
 
+        <g v-if="reveal > 0.98 && notes.length" aria-hidden="true">
+          <g v-for="a in notes" :key="a.id">
+            <line :class="['leader', a.tone]" :x1="a.px" :y1="a.py" :x2="a.tx" :y2="a.leaderEnd" />
+            <circle :class="['leader-dot', a.tone]" :cx="a.px" :cy="a.py" r="3.5" />
+            <text :class="['note', a.tone]" :x="a.tx" :y="a.ty">
+              <tspan v-for="(l, n) in a.lines" :key="n" :x="a.tx" :dy="n ? LINE_H : 0">{{ l }}</tspan>
+            </text>
+          </g>
+        </g>
+
         <g v-if="active !== null" aria-hidden="true">
           <line class="cursor" :x1="x(active)" :x2="x(active)" y1="0" :y2="innerH" />
           <circle
@@ -196,6 +226,16 @@ svg:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 2px; 
 .end-label.teal { fill: var(--color-teal); }
 .end-label.coral { fill: var(--color-coral); }
 .end-label.grey { fill: var(--color-ink-muted); font-weight: 500; }
+.note {
+  font-size: 13px; font-family: var(--font-sans); font-weight: 600; fill: var(--color-ink);
+  /* A halo in the section background keeps text readable over gridlines. */
+  paint-order: stroke; stroke: var(--chart-halo, var(--color-bg)); stroke-width: 5px; stroke-linejoin: round;
+}
+.note.coral { fill: var(--color-coral); }
+.leader { stroke: var(--color-ink-muted); stroke-width: 1.5; }
+.leader.coral { stroke: var(--color-coral); }
+.leader-dot { fill: var(--color-ink-muted); }
+.leader-dot.coral { fill: var(--color-coral); }
 .cursor { stroke: var(--color-ink-muted); stroke-dasharray: 3 3; }
 .dot { stroke: var(--color-surface); stroke-width: 2; }
 .dot.teal { fill: var(--color-teal); }

@@ -26,6 +26,13 @@ const range = computed(() => {
   const r = overall.value.map((p) => p.rate);
   return `${(Math.min(...r) * 100).toFixed(1)}% and ${(Math.max(...r) * 100).toFixed(1)}%`;
 });
+const annotations = computed(() => {
+  const i = 3;
+  return [{
+    id: 'flat', i, rate: overall.value[i].rate, dx: -8, dy: -62, tone: 'teal',
+    lines: ['Flat for two years:', `never below ${(Math.min(...overall.value.map((p) => p.rate)) * 100).toFixed(1)}%,`, `never above ${(Math.max(...overall.value.map((p) => p.rate)) * 100).toFixed(1)}%`],
+  }];
+});
 const summary = computed(
   () => `Line chart of the overall 30-day readmission rate across ${overall.value.length} months. It stays between ${range.value}, averaging ${headlineRate.value}.`,
 );
@@ -41,7 +48,7 @@ const summary = computed(
         <p class="note">Every month for two years sat between {{ range }}. No alarm bells.</p>
       </div>
       <div class="beat-stage">
-        <TrendChart :series="series" :reveal="reveal" title="Overall readmission rate by month" :summary="summary" />
+        <TrendChart :series="series" :reveal="reveal" :annotations="annotations" title="Overall readmission rate by month" :summary="summary" />
       </div>
     </div>
   </section>

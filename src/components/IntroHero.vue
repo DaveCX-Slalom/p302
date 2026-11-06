@@ -30,6 +30,11 @@ const TERMS = [
 <template>
   <section id="top" class="hero" aria-labelledby="hero-title">
     <div class="inner">
+      <!-- Decorative heartbeat line. No data, hidden from assistive tech. -->
+      <svg class="pulse" viewBox="0 0 600 180" aria-hidden="true" focusable="false">
+        <path class="faint" pathLength="1" d="M0 100 H110 L130 92 L150 100 H195 L212 114 L240 22 L268 156 L290 100 H350 L375 78 L405 100 H600" />
+        <path class="bright" pathLength="1" d="M0 100 H110 L130 92 L150 100 H195 L212 114 L240 22 L268 156 L290 100 H350 L375 78 L405 100 H600" />
+      </svg>
       <p class="eyebrow">Quarterly quality review · Briefing for the COO</p>
       <h1 id="hero-title">Why do patients come back?</h1>
       <p class="lede">
@@ -64,7 +69,20 @@ const TERMS = [
 
 <style scoped>
 .hero { background: var(--color-teal-deep); color: var(--color-surface); scroll-margin-top: 0; }
-.inner { max-width: 76rem; margin: 0 auto; padding: var(--space-6) var(--gutter); }
+.inner { position: relative; max-width: 76rem; margin: 0 auto; padding: var(--space-6) var(--gutter); }
+.inner > :not(.pulse) { position: relative; z-index: 1; }
+.pulse { display: none; }
+@media (min-width: 1024px) {
+  .pulse { display: block; position: absolute; right: var(--gutter); top: 18%; width: min(46%, 34rem); height: auto; }
+}
+.pulse path { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.pulse .faint { stroke: var(--color-teal-soft); stroke-width: 2; opacity: 0.35; }
+.pulse .bright {
+  stroke: var(--color-on-deep); stroke-width: 3;
+  stroke-dasharray: 1; stroke-dashoffset: 1;
+  animation: draw 2.6s ease-out 0.3s forwards;
+}
+@keyframes draw { to { stroke-dashoffset: 0; } }
 .eyebrow { font-size: var(--text-sm); text-transform: uppercase; letter-spacing: 0.1em; font-weight: 700; color: var(--color-on-deep-muted); margin-bottom: var(--space-3); }
 h1 { max-width: 14ch; margin-bottom: var(--space-3); }
 .lede { max-width: 38rem; font-size: var(--text-lg); color: var(--color-on-deep); }

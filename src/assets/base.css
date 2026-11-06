@@ -22,7 +22,7 @@ p { margin: 0 0 var(--space-3); }
 /* One idea per screen. Text on the left and the chart on the right on wide
    screens. Annotations stack under the chart on narrow screens. */
 .beat { padding: var(--space-6) 0; scroll-margin-top: 6.5rem; }
-.beat.alt { background: var(--color-bg-alt); }
+.beat.alt { background: var(--color-bg-alt); --chart-halo: var(--color-bg-alt); }
 .beat-inner {
   max-width: 76rem; margin: 0 auto; padding: 0 var(--gutter);
   display: grid; gap: var(--space-4);

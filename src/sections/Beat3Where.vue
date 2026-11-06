@@ -77,6 +77,7 @@ const summary = computed(() =>
           v-else
           :groups="groups"
           :reveal="reveal"
+          :compare="{ from: 'weekday_day', to: 'weekend' }"
           title="Readmission rate by discharge shift for heart failure and COPD"
           :summary="summary"
         />

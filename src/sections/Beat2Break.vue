@@ -40,6 +40,21 @@ const series = computed(() =>
     })),
 );
 
+// Notes appear once the lines have finished separating, so they point at final positions.
+const annotations = computed(() => {
+  if (split.value < 0.98) return [];
+  const greys = byCondition.value.filter((c) => !c.problem);
+  const i = 5;
+  const mean = greys.reduce((s, c) => s + c.values[i].rate, 0) / greys.length;
+  const drop = greys.map((c) => first(c.id) - last(c.id));
+  const lo = (Math.min(...drop) * 100).toFixed(0);
+  const hi = (Math.max(...drop) * 100).toFixed(0);
+  return [{
+    id: 'masking', i, rate: mean, dx: 20, dy: -78, tone: 'grey',
+    lines: [`The other four fell ${lo} to ${hi} pts,`, 'which hid the rise'],
+  }];
+});
+
 const pct = (v) => `${(v * 100).toFixed(1)}%`;
 const first = (id) => byCondition.value.find((c) => c.id === id).values[0].rate;
 const last = (id) => { const v = byCondition.value.find((c) => c.id === id).values; return v[v.length - 1].rate; };
@@ -70,7 +85,7 @@ const summary = computed(
           message="No conditions selected. Pick at least one to see its trend."
           @action="reset"
         />
-        <TrendChart v-else :series="series" title="Readmission rate by condition" :summary="summary" />
+        <TrendChart v-else :series="series" :annotations="annotations" title="Readmission rate by condition" :summary="summary" />
       </div>
     </div>
   </section>

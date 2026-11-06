@@ -8,7 +8,7 @@ Built, deployed (https://p302-five.vercel.app/) and polished once after the firs
 ## Next steps
 1. Check the redeployed site after the push (Vercel builds from `main`).
 2. Manual screen reader and real-device pass (automated checks do not cover these).
-3. Optional ideas: a sticky "scrollytelling" chart that updates as text steps scroll, annotations drawn on the charts, a printable one-page summary.
+3. Optional ideas not done (see decisions #17): a sticky "scrollytelling" chart that updates as text steps scroll, a printable one-page summary.
 4. Delete `public/_frames.html` (untracked temporary test page).
 
 ## Open questions
@@ -19,6 +19,8 @@ Built, deployed (https://p302-five.vercel.app/) and polished once after the firs
 - Field name is `nurse_ratio`; `rate` is derived. Generator seed 2024: blended 14.2%, HF 15.0% to 21.0%, COPD 14.3% to 18.9%, HF+COPD weekend 1.98x weekday, HF+COPD r=0.86 (all rows 0.44), pooled slope about 5.7 pt per +1 patient/nurse.
 - Scaffold: `npm run data` regenerates the data; `npm run dev` / `npm run build`.
 - Page structure: `SiteNav` (sticky, fictional brand, jump links, progress), `IntroHero` (facts computed from data, glossary), six beat sections (`id`s: overview, conditions, shifts, staffing, what-if, next-steps), footer in `App.vue`.
+- Chart annotations: `TrendChart` takes an `annotations` prop (month index, rate, text lines, offset); hidden below 520px where the beside-chart text covers the same point. `BarChart` takes `compare={from,to}` for the dashed weekday-level line and multiple label. Section halo color comes from `--chart-halo` (set on `.beat.alt`).
+- Intro heartbeat line is decorative SVG (aria-hidden, shown at 1024px and up, draw animation off with reduced motion).
 - Shared layout classes (`.beat`, `.beat.alt`, `.beat-inner`, `.beat-text`, `.beat-stage`, `.callout`, `.note`, `.kicker`) live in `base.css`.
 - Shared pieces: `TrendChart`, `BarChart`, `ScatterChart`, `StateMessage`, `ConditionChips`, `useTween`, `useConditionFilter`, `useWhatIf` (model plus shared slider value), `stats.js`.
 - What-if model: pooled HF + COPD slope; last 12 months weekend discharges; assumes 8 weekend nurses today and $15,000 per readmission (illustrative, shown on screen); projected rate never goes below the weekday rate. Beat 6 reuses the slider value (minimum 1).

@@ -22,6 +22,8 @@
 - [x] Layout pass: two-column beats, numbered labels, alternating bands, end values on chart labels
 - [x] Re-ran axe (clean at 375/768/1280 and reduced motion) and overflow checks after the redesign
 
+- [x] Annotations drawn on charts (beat 1 flat range, beat 2 masking note, beat 3 weekday-level line with the multiple) and an abstract heartbeat line in the intro; axe and overflow re-checked
+
 ## In progress
 - Nothing in progress.
 
