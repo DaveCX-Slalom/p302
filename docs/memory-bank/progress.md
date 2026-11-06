@@ -1,14 +1,14 @@
 # Progress
 
 ## Done
+- [x] Data generator (`data/generate.js`, seed 2024, writes `data/readmissions.json`, sanity checks pass)
 - [x] BRIEF.md, README, LICENSE, CLAUDE.md
 - [x] Memory bank, story-outline.md, data-notes.md
 
 ## In progress
-- [ ] Data generator
+- [ ] Vue scaffold and design tokens
 
 ## To do
-- [ ] Vue scaffold and design tokens
 - [ ] Beat 1: flat line
 - [ ] Beat 2: split by condition
 - [ ] Beat 3: shift breakdown
@@ -25,4 +25,4 @@
 ## Session log
 | Date | Session | Summary |
 |------|---------|---------|
-| 2026-11-06 | 1 | Read brief, reconciled docs (memory bank moved to docs/memory-bank/, field names aligned), logged decisions, started data generator. |
+| 2026-11-06 | 1 | Read brief, reconciled docs (memory bank moved to docs/memory-bank/, field names aligned), logged decisions, built seeded data generator with passing sanity checks. |
