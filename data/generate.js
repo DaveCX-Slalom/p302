@@ -180,9 +180,13 @@ console.log(`HF+COPD pooled slope: ${(rHC.slope * 100).toFixed(2)} pt of rate pe
 if (rHC.r < 0.5) failures.push('HF+COPD nurse_ratio/rate correlation is below 0.5');
 
 // --- Write output ---
-const out = join(dirname(fileURLToPath(import.meta.url)), 'readmissions.json');
-writeFileSync(out, JSON.stringify(rows, null, 1) + '\n');
-console.log(`\nWrote ${rows.length} rows to ${out}`);
+const here = dirname(fileURLToPath(import.meta.url));
+const json = JSON.stringify(rows, null, 1) + '\n';
+const out = join(here, 'readmissions.json');
+writeFileSync(out, json);
+// The app fetches this copy so it can show loading and error states.
+writeFileSync(join(here, '..', 'public', 'readmissions.json'), json);
+console.log(`\nWrote ${rows.length} rows to ${out} (and public/readmissions.json)`);
 
 if (failures.length) {
   console.error('\nSANITY CHECK FAILED:\n - ' + failures.join('\n - '));

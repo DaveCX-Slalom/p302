@@ -1,0 +1,3890 @@
+[
+ {
+  "month": "2024-01",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 147,
+  "readmissions": 18,
+  "rate": 0.1224,
+  "nurse_ratio": 4.77
+ },
+ {
+  "month": "2024-01",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 92,
+  "readmissions": 12,
+  "rate": 0.1304,
+  "nurse_ratio": 5.26
+ },
+ {
+  "month": "2024-01",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 62,
+  "readmissions": 15,
+  "rate": 0.2419,
+  "nurse_ratio": 6.41
+ },
+ {
+  "month": "2024-01",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 130,
+  "readmissions": 16,
+  "rate": 0.1231,
+  "nurse_ratio": 6.32
+ },
+ {
+  "month": "2024-01",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 78,
+  "readmissions": 9,
+  "rate": 0.1154,
+  "nurse_ratio": 4.98
+ },
+ {
+  "month": "2024-01",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 51,
+  "readmissions": 12,
+  "rate": 0.2353,
+  "nurse_ratio": 6.95
+ },
+ {
+  "month": "2024-01",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 186,
+  "readmissions": 28,
+  "rate": 0.1505,
+  "nurse_ratio": 4.43
+ },
+ {
+  "month": "2024-01",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 111,
+  "readmissions": 18,
+  "rate": 0.1622,
+  "nurse_ratio": 5.6
+ },
+ {
+  "month": "2024-01",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 81,
+  "readmissions": 14,
+  "rate": 0.1728,
+  "nurse_ratio": 7.75
+ },
+ {
+  "month": "2024-01",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 184,
+  "readmissions": 18,
+  "rate": 0.0978,
+  "nurse_ratio": 4.36
+ },
+ {
+  "month": "2024-01",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 98,
+  "readmissions": 10,
+  "rate": 0.102,
+  "nurse_ratio": 5.15
+ },
+ {
+  "month": "2024-01",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 68,
+  "readmissions": 7,
+  "rate": 0.1029,
+  "nurse_ratio": 6.59
+ },
+ {
+  "month": "2024-01",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 147,
+  "readmissions": 21,
+  "rate": 0.1429,
+  "nurse_ratio": 4.82
+ },
+ {
+  "month": "2024-01",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 88,
+  "readmissions": 14,
+  "rate": 0.1591,
+  "nurse_ratio": 5.97
+ },
+ {
+  "month": "2024-01",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 59,
+  "readmissions": 9,
+  "rate": 0.1525,
+  "nurse_ratio": 7.41
+ },
+ {
+  "month": "2024-01",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 103,
+  "readmissions": 16,
+  "rate": 0.1553,
+  "nurse_ratio": 5.45
+ },
+ {
+  "month": "2024-01",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 71,
+  "readmissions": 11,
+  "rate": 0.1549,
+  "nurse_ratio": 5.55
+ },
+ {
+  "month": "2024-01",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 42,
+  "readmissions": 7,
+  "rate": 0.1667,
+  "nurse_ratio": 6.54
+ },
+ {
+  "month": "2024-02",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 140,
+  "readmissions": 18,
+  "rate": 0.1286,
+  "nurse_ratio": 5.21
+ },
+ {
+  "month": "2024-02",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 90,
+  "readmissions": 12,
+  "rate": 0.1333,
+  "nurse_ratio": 5.17
+ },
+ {
+  "month": "2024-02",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 61,
+  "readmissions": 16,
+  "rate": 0.2623,
+  "nurse_ratio": 7.73
+ },
+ {
+  "month": "2024-02",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 126,
+  "readmissions": 14,
+  "rate": 0.1111,
+  "nurse_ratio": 4.97
+ },
+ {
+  "month": "2024-02",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 78,
+  "readmissions": 10,
+  "rate": 0.1282,
+  "nurse_ratio": 5.39
+ },
+ {
+  "month": "2024-02",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 52,
+  "readmissions": 12,
+  "rate": 0.2308,
+  "nurse_ratio": 6.67
+ },
+ {
+  "month": "2024-02",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 191,
+  "readmissions": 31,
+  "rate": 0.1623,
+  "nurse_ratio": 5.73
+ },
+ {
+  "month": "2024-02",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 117,
+  "readmissions": 20,
+  "rate": 0.1709,
+  "nurse_ratio": 5.59
+ },
+ {
+  "month": "2024-02",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 80,
+  "readmissions": 14,
+  "rate": 0.175,
+  "nurse_ratio": 6.92
+ },
+ {
+  "month": "2024-02",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 171,
+  "readmissions": 18,
+  "rate": 0.1053,
+  "nurse_ratio": 5.52
+ },
+ {
+  "month": "2024-02",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 101,
+  "readmissions": 10,
+  "rate": 0.099,
+  "nurse_ratio": 4.85
+ },
+ {
+  "month": "2024-02",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 67,
+  "readmissions": 8,
+  "rate": 0.1194,
+  "nurse_ratio": 8.34
+ },
+ {
+  "month": "2024-02",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 151,
+  "readmissions": 21,
+  "rate": 0.1391,
+  "nurse_ratio": 5.08
+ },
+ {
+  "month": "2024-02",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 102,
+  "readmissions": 14,
+  "rate": 0.1373,
+  "nurse_ratio": 5.38
+ },
+ {
+  "month": "2024-02",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 58,
+  "readmissions": 8,
+  "rate": 0.1379,
+  "nurse_ratio": 6.9
+ },
+ {
+  "month": "2024-02",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 103,
+  "readmissions": 15,
+  "rate": 0.1456,
+  "nurse_ratio": 4.7
+ },
+ {
+  "month": "2024-02",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 63,
+  "readmissions": 10,
+  "rate": 0.1587,
+  "nurse_ratio": 5.4
+ },
+ {
+  "month": "2024-02",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 45,
+  "readmissions": 7,
+  "rate": 0.1556,
+  "nurse_ratio": 7.51
+ },
+ {
+  "month": "2024-03",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 151,
+  "readmissions": 18,
+  "rate": 0.1192,
+  "nurse_ratio": 4.7
+ },
+ {
+  "month": "2024-03",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 94,
+  "readmissions": 13,
+  "rate": 0.1383,
+  "nurse_ratio": 5.93
+ },
+ {
+  "month": "2024-03",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 60,
+  "readmissions": 15,
+  "rate": 0.25,
+  "nurse_ratio": 7.21
+ },
+ {
+  "month": "2024-03",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 133,
+  "readmissions": 16,
+  "rate": 0.1203,
+  "nurse_ratio": 4.66
+ },
+ {
+  "month": "2024-03",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 74,
+  "readmissions": 10,
+  "rate": 0.1351,
+  "nurse_ratio": 5.97
+ },
+ {
+  "month": "2024-03",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 51,
+  "readmissions": 12,
+  "rate": 0.2353,
+  "nurse_ratio": 6.41
+ },
+ {
+  "month": "2024-03",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 178,
+  "readmissions": 28,
+  "rate": 0.1573,
+  "nurse_ratio": 4.62
+ },
+ {
+  "month": "2024-03",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 108,
+  "readmissions": 18,
+  "rate": 0.1667,
+  "nurse_ratio": 6.28
+ },
+ {
+  "month": "2024-03",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 71,
+  "readmissions": 12,
+  "rate": 0.169,
+  "nurse_ratio": 6.71
+ },
+ {
+  "month": "2024-03",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 170,
+  "readmissions": 17,
+  "rate": 0.1,
+  "nurse_ratio": 4.87
+ },
+ {
+  "month": "2024-03",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 105,
+  "readmissions": 11,
+  "rate": 0.1048,
+  "nurse_ratio": 5.69
+ },
+ {
+  "month": "2024-03",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 72,
+  "readmissions": 8,
+  "rate": 0.1111,
+  "nurse_ratio": 6.59
+ },
+ {
+  "month": "2024-03",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 151,
+  "readmissions": 20,
+  "rate": 0.1325,
+  "nurse_ratio": 4.89
+ },
+ {
+  "month": "2024-03",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 92,
+  "readmissions": 13,
+  "rate": 0.1413,
+  "nurse_ratio": 5.32
+ },
+ {
+  "month": "2024-03",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 57,
+  "readmissions": 9,
+  "rate": 0.1579,
+  "nurse_ratio": 7.17
+ },
+ {
+  "month": "2024-03",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 111,
+  "readmissions": 16,
+  "rate": 0.1441,
+  "nurse_ratio": 5.13
+ },
+ {
+  "month": "2024-03",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 69,
+  "readmissions": 10,
+  "rate": 0.1449,
+  "nurse_ratio": 4.73
+ },
+ {
+  "month": "2024-03",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 43,
+  "readmissions": 7,
+  "rate": 0.1628,
+  "nurse_ratio": 7.46
+ },
+ {
+  "month": "2024-04",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 144,
+  "readmissions": 19,
+  "rate": 0.1319,
+  "nurse_ratio": 4.84
+ },
+ {
+  "month": "2024-04",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 91,
+  "readmissions": 12,
+  "rate": 0.1319,
+  "nurse_ratio": 5.1
+ },
+ {
+  "month": "2024-04",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 60,
+  "readmissions": 15,
+  "rate": 0.25,
+  "nurse_ratio": 6.65
+ },
+ {
+  "month": "2024-04",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 129,
+  "readmissions": 15,
+  "rate": 0.1163,
+  "nurse_ratio": 5
+ },
+ {
+  "month": "2024-04",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 75,
+  "readmissions": 10,
+  "rate": 0.1333,
+  "nurse_ratio": 5.48
+ },
+ {
+  "month": "2024-04",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 49,
+  "readmissions": 12,
+  "rate": 0.2449,
+  "nurse_ratio": 6.81
+ },
+ {
+  "month": "2024-04",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 186,
+  "readmissions": 29,
+  "rate": 0.1559,
+  "nurse_ratio": 5.05
+ },
+ {
+  "month": "2024-04",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 120,
+  "readmissions": 20,
+  "rate": 0.1667,
+  "nurse_ratio": 6.32
+ },
+ {
+  "month": "2024-04",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 74,
+  "readmissions": 12,
+  "rate": 0.1622,
+  "nurse_ratio": 6.38
+ },
+ {
+  "month": "2024-04",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 174,
+  "readmissions": 17,
+  "rate": 0.0977,
+  "nurse_ratio": 5.14
+ },
+ {
+  "month": "2024-04",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 102,
+  "readmissions": 11,
+  "rate": 0.1078,
+  "nurse_ratio": 5.71
+ },
+ {
+  "month": "2024-04",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 70,
+  "readmissions": 7,
+  "rate": 0.1,
+  "nurse_ratio": 5.97
+ },
+ {
+  "month": "2024-04",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 152,
+  "readmissions": 21,
+  "rate": 0.1382,
+  "nurse_ratio": 5
+ },
+ {
+  "month": "2024-04",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 88,
+  "readmissions": 13,
+  "rate": 0.1477,
+  "nurse_ratio": 5.61
+ },
+ {
+  "month": "2024-04",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 59,
+  "readmissions": 9,
+  "rate": 0.1525,
+  "nurse_ratio": 7.68
+ },
+ {
+  "month": "2024-04",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 113,
+  "readmissions": 17,
+  "rate": 0.1504,
+  "nurse_ratio": 5.84
+ },
+ {
+  "month": "2024-04",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 69,
+  "readmissions": 11,
+  "rate": 0.1594,
+  "nurse_ratio": 5.04
+ },
+ {
+  "month": "2024-04",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 44,
+  "readmissions": 7,
+  "rate": 0.1591,
+  "nurse_ratio": 6.85
+ },
+ {
+  "month": "2024-05",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 149,
+  "readmissions": 20,
+  "rate": 0.1342,
+  "nurse_ratio": 5.41
+ },
+ {
+  "month": "2024-05",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 93,
+  "readmissions": 13,
+  "rate": 0.1398,
+  "nurse_ratio": 5.44
+ },
+ {
+  "month": "2024-05",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 55,
+  "readmissions": 14,
+  "rate": 0.2545,
+  "nurse_ratio": 7.13
+ },
+ {
+  "month": "2024-05",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 127,
+  "readmissions": 15,
+  "rate": 0.1181,
+  "nurse_ratio": 4.53
+ },
+ {
+  "month": "2024-05",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 74,
+  "readmissions": 9,
+  "rate": 0.1216,
+  "nurse_ratio": 4.77
+ },
+ {
+  "month": "2024-05",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 53,
+  "readmissions": 13,
+  "rate": 0.2453,
+  "nurse_ratio": 7.12
+ },
+ {
+  "month": "2024-05",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 199,
+  "readmissions": 31,
+  "rate": 0.1558,
+  "nurse_ratio": 5.3
+ },
+ {
+  "month": "2024-05",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 122,
+  "readmissions": 20,
+  "rate": 0.1639,
+  "nurse_ratio": 6.03
+ },
+ {
+  "month": "2024-05",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 75,
+  "readmissions": 13,
+  "rate": 0.1733,
+  "nurse_ratio": 6.56
+ },
+ {
+  "month": "2024-05",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 169,
+  "readmissions": 16,
+  "rate": 0.0947,
+  "nurse_ratio": 5.17
+ },
+ {
+  "month": "2024-05",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 103,
+  "readmissions": 10,
+  "rate": 0.0971,
+  "nurse_ratio": 5.63
+ },
+ {
+  "month": "2024-05",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 72,
+  "readmissions": 7,
+  "rate": 0.0972,
+  "nurse_ratio": 6.78
+ },
+ {
+  "month": "2024-05",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 144,
+  "readmissions": 19,
+  "rate": 0.1319,
+  "nurse_ratio": 5.15
+ },
+ {
+  "month": "2024-05",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 88,
+  "readmissions": 13,
+  "rate": 0.1477,
+  "nurse_ratio": 5.83
+ },
+ {
+  "month": "2024-05",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 61,
+  "readmissions": 9,
+  "rate": 0.1475,
+  "nurse_ratio": 7.09
+ },
+ {
+  "month": "2024-05",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 112,
+  "readmissions": 16,
+  "rate": 0.1429,
+  "nurse_ratio": 5.16
+ },
+ {
+  "month": "2024-05",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 68,
+  "readmissions": 10,
+  "rate": 0.1471,
+  "nurse_ratio": 5.62
+ },
+ {
+  "month": "2024-05",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 45,
+  "readmissions": 7,
+  "rate": 0.1556,
+  "nurse_ratio": 6.74
+ },
+ {
+  "month": "2024-06",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 152,
+  "readmissions": 20,
+  "rate": 0.1316,
+  "nurse_ratio": 4.56
+ },
+ {
+  "month": "2024-06",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 91,
+  "readmissions": 12,
+  "rate": 0.1319,
+  "nurse_ratio": 4.87
+ },
+ {
+  "month": "2024-06",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 64,
+  "readmissions": 17,
+  "rate": 0.2656,
+  "nurse_ratio": 7.03
+ },
+ {
+  "month": "2024-06",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 128,
+  "readmissions": 16,
+  "rate": 0.125,
+  "nurse_ratio": 5.09
+ },
+ {
+  "month": "2024-06",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 72,
+  "readmissions": 9,
+  "rate": 0.125,
+  "nurse_ratio": 5.05
+ },
+ {
+  "month": "2024-06",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 56,
+  "readmissions": 15,
+  "rate": 0.2679,
+  "nurse_ratio": 7.34
+ },
+ {
+  "month": "2024-06",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 195,
+  "readmissions": 28,
+  "rate": 0.1436,
+  "nurse_ratio": 4.13
+ },
+ {
+  "month": "2024-06",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 112,
+  "readmissions": 18,
+  "rate": 0.1607,
+  "nurse_ratio": 5.04
+ },
+ {
+  "month": "2024-06",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 83,
+  "readmissions": 14,
+  "rate": 0.1687,
+  "nurse_ratio": 7.18
+ },
+ {
+  "month": "2024-06",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 171,
+  "readmissions": 15,
+  "rate": 0.0877,
+  "nurse_ratio": 5.4
+ },
+ {
+  "month": "2024-06",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 102,
+  "readmissions": 10,
+  "rate": 0.098,
+  "nurse_ratio": 5.04
+ },
+ {
+  "month": "2024-06",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 67,
+  "readmissions": 7,
+  "rate": 0.1045,
+  "nurse_ratio": 6.73
+ },
+ {
+  "month": "2024-06",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 152,
+  "readmissions": 21,
+  "rate": 0.1382,
+  "nurse_ratio": 5.53
+ },
+ {
+  "month": "2024-06",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 88,
+  "readmissions": 12,
+  "rate": 0.1364,
+  "nurse_ratio": 5.17
+ },
+ {
+  "month": "2024-06",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 60,
+  "readmissions": 9,
+  "rate": 0.15,
+  "nurse_ratio": 7.44
+ },
+ {
+  "month": "2024-06",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 112,
+  "readmissions": 16,
+  "rate": 0.1429,
+  "nurse_ratio": 5.16
+ },
+ {
+  "month": "2024-06",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 66,
+  "readmissions": 10,
+  "rate": 0.1515,
+  "nurse_ratio": 5.77
+ },
+ {
+  "month": "2024-06",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 42,
+  "readmissions": 7,
+  "rate": 0.1667,
+  "nurse_ratio": 6.74
+ },
+ {
+  "month": "2024-07",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 149,
+  "readmissions": 21,
+  "rate": 0.1409,
+  "nurse_ratio": 5.34
+ },
+ {
+  "month": "2024-07",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 94,
+  "readmissions": 14,
+  "rate": 0.1489,
+  "nurse_ratio": 5.65
+ },
+ {
+  "month": "2024-07",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 60,
+  "readmissions": 17,
+  "rate": 0.2833,
+  "nurse_ratio": 7.98
+ },
+ {
+  "month": "2024-07",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 118,
+  "readmissions": 15,
+  "rate": 0.1271,
+  "nurse_ratio": 5.05
+ },
+ {
+  "month": "2024-07",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 79,
+  "readmissions": 11,
+  "rate": 0.1392,
+  "nurse_ratio": 6.06
+ },
+ {
+  "month": "2024-07",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 51,
+  "readmissions": 14,
+  "rate": 0.2745,
+  "nurse_ratio": 7.99
+ },
+ {
+  "month": "2024-07",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 188,
+  "readmissions": 30,
+  "rate": 0.1596,
+  "nurse_ratio": 5.28
+ },
+ {
+  "month": "2024-07",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 117,
+  "readmissions": 19,
+  "rate": 0.1624,
+  "nurse_ratio": 5.65
+ },
+ {
+  "month": "2024-07",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 77,
+  "readmissions": 12,
+  "rate": 0.1558,
+  "nurse_ratio": 6.06
+ },
+ {
+  "month": "2024-07",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 174,
+  "readmissions": 16,
+  "rate": 0.092,
+  "nurse_ratio": 4.61
+ },
+ {
+  "month": "2024-07",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 108,
+  "readmissions": 11,
+  "rate": 0.1019,
+  "nurse_ratio": 5.48
+ },
+ {
+  "month": "2024-07",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 71,
+  "readmissions": 8,
+  "rate": 0.1127,
+  "nurse_ratio": 7.03
+ },
+ {
+  "month": "2024-07",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 147,
+  "readmissions": 19,
+  "rate": 0.1293,
+  "nurse_ratio": 4.96
+ },
+ {
+  "month": "2024-07",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 94,
+  "readmissions": 14,
+  "rate": 0.1489,
+  "nurse_ratio": 5.73
+ },
+ {
+  "month": "2024-07",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 60,
+  "readmissions": 9,
+  "rate": 0.15,
+  "nurse_ratio": 7.81
+ },
+ {
+  "month": "2024-07",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 112,
+  "readmissions": 16,
+  "rate": 0.1429,
+  "nurse_ratio": 5.3
+ },
+ {
+  "month": "2024-07",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 63,
+  "readmissions": 9,
+  "rate": 0.1429,
+  "nurse_ratio": 5.37
+ },
+ {
+  "month": "2024-07",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 45,
+  "readmissions": 7,
+  "rate": 0.1556,
+  "nurse_ratio": 6.88
+ },
+ {
+  "month": "2024-08",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 147,
+  "readmissions": 21,
+  "rate": 0.1429,
+  "nurse_ratio": 5.42
+ },
+ {
+  "month": "2024-08",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 88,
+  "readmissions": 12,
+  "rate": 0.1364,
+  "nurse_ratio": 5.25
+ },
+ {
+  "month": "2024-08",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 56,
+  "readmissions": 15,
+  "rate": 0.2679,
+  "nurse_ratio": 6.51
+ },
+ {
+  "month": "2024-08",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 135,
+  "readmissions": 17,
+  "rate": 0.1259,
+  "nurse_ratio": 5.01
+ },
+ {
+  "month": "2024-08",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 82,
+  "readmissions": 10,
+  "rate": 0.122,
+  "nurse_ratio": 4.87
+ },
+ {
+  "month": "2024-08",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 52,
+  "readmissions": 14,
+  "rate": 0.2692,
+  "nurse_ratio": 7.34
+ },
+ {
+  "month": "2024-08",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 198,
+  "readmissions": 29,
+  "rate": 0.1465,
+  "nurse_ratio": 4.05
+ },
+ {
+  "month": "2024-08",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 110,
+  "readmissions": 18,
+  "rate": 0.1636,
+  "nurse_ratio": 5.69
+ },
+ {
+  "month": "2024-08",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 78,
+  "readmissions": 13,
+  "rate": 0.1667,
+  "nurse_ratio": 7.04
+ },
+ {
+  "month": "2024-08",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 174,
+  "readmissions": 15,
+  "rate": 0.0862,
+  "nurse_ratio": 4.66
+ },
+ {
+  "month": "2024-08",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 105,
+  "readmissions": 10,
+  "rate": 0.0952,
+  "nurse_ratio": 5.71
+ },
+ {
+  "month": "2024-08",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 68,
+  "readmissions": 8,
+  "rate": 0.1176,
+  "nurse_ratio": 8.19
+ },
+ {
+  "month": "2024-08",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 147,
+  "readmissions": 19,
+  "rate": 0.1293,
+  "nurse_ratio": 4.95
+ },
+ {
+  "month": "2024-08",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 89,
+  "readmissions": 12,
+  "rate": 0.1348,
+  "nurse_ratio": 5.21
+ },
+ {
+  "month": "2024-08",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 63,
+  "readmissions": 9,
+  "rate": 0.1429,
+  "nurse_ratio": 6.37
+ },
+ {
+  "month": "2024-08",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 111,
+  "readmissions": 16,
+  "rate": 0.1441,
+  "nurse_ratio": 5.62
+ },
+ {
+  "month": "2024-08",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 68,
+  "readmissions": 10,
+  "rate": 0.1471,
+  "nurse_ratio": 5.68
+ },
+ {
+  "month": "2024-08",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 44,
+  "readmissions": 7,
+  "rate": 0.1591,
+  "nurse_ratio": 7.68
+ },
+ {
+  "month": "2024-09",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 148,
+  "readmissions": 21,
+  "rate": 0.1419,
+  "nurse_ratio": 5.08
+ },
+ {
+  "month": "2024-09",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 93,
+  "readmissions": 14,
+  "rate": 0.1505,
+  "nurse_ratio": 5.7
+ },
+ {
+  "month": "2024-09",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 58,
+  "readmissions": 16,
+  "rate": 0.2759,
+  "nurse_ratio": 6.88
+ },
+ {
+  "month": "2024-09",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 134,
+  "readmissions": 19,
+  "rate": 0.1418,
+  "nurse_ratio": 6.27
+ },
+ {
+  "month": "2024-09",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 77,
+  "readmissions": 10,
+  "rate": 0.1299,
+  "nurse_ratio": 5.48
+ },
+ {
+  "month": "2024-09",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 49,
+  "readmissions": 13,
+  "rate": 0.2653,
+  "nurse_ratio": 6.85
+ },
+ {
+  "month": "2024-09",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 201,
+  "readmissions": 30,
+  "rate": 0.1493,
+  "nurse_ratio": 5.1
+ },
+ {
+  "month": "2024-09",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 116,
+  "readmissions": 18,
+  "rate": 0.1552,
+  "nurse_ratio": 5.26
+ },
+ {
+  "month": "2024-09",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 75,
+  "readmissions": 12,
+  "rate": 0.16,
+  "nurse_ratio": 6.61
+ },
+ {
+  "month": "2024-09",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 160,
+  "readmissions": 15,
+  "rate": 0.0938,
+  "nurse_ratio": 5.37
+ },
+ {
+  "month": "2024-09",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 104,
+  "readmissions": 10,
+  "rate": 0.0962,
+  "nurse_ratio": 5.57
+ },
+ {
+  "month": "2024-09",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 65,
+  "readmissions": 7,
+  "rate": 0.1077,
+  "nurse_ratio": 7.23
+ },
+ {
+  "month": "2024-09",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 141,
+  "readmissions": 19,
+  "rate": 0.1348,
+  "nurse_ratio": 5.35
+ },
+ {
+  "month": "2024-09",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 98,
+  "readmissions": 14,
+  "rate": 0.1429,
+  "nurse_ratio": 5.54
+ },
+ {
+  "month": "2024-09",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 58,
+  "readmissions": 9,
+  "rate": 0.1552,
+  "nurse_ratio": 7.51
+ },
+ {
+  "month": "2024-09",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 106,
+  "readmissions": 15,
+  "rate": 0.1415,
+  "nurse_ratio": 5.32
+ },
+ {
+  "month": "2024-09",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 68,
+  "readmissions": 10,
+  "rate": 0.1471,
+  "nurse_ratio": 5.87
+ },
+ {
+  "month": "2024-09",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 43,
+  "readmissions": 6,
+  "rate": 0.1395,
+  "nurse_ratio": 6.39
+ },
+ {
+  "month": "2024-10",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 145,
+  "readmissions": 20,
+  "rate": 0.1379,
+  "nurse_ratio": 4.43
+ },
+ {
+  "month": "2024-10",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 91,
+  "readmissions": 14,
+  "rate": 0.1538,
+  "nurse_ratio": 5.28
+ },
+ {
+  "month": "2024-10",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 61,
+  "readmissions": 18,
+  "rate": 0.2951,
+  "nurse_ratio": 8.06
+ },
+ {
+  "month": "2024-10",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 133,
+  "readmissions": 17,
+  "rate": 0.1278,
+  "nurse_ratio": 4.41
+ },
+ {
+  "month": "2024-10",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 77,
+  "readmissions": 11,
+  "rate": 0.1429,
+  "nurse_ratio": 4.87
+ },
+ {
+  "month": "2024-10",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 54,
+  "readmissions": 14,
+  "rate": 0.2593,
+  "nurse_ratio": 6.94
+ },
+ {
+  "month": "2024-10",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 202,
+  "readmissions": 28,
+  "rate": 0.1386,
+  "nurse_ratio": 4.06
+ },
+ {
+  "month": "2024-10",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 122,
+  "readmissions": 20,
+  "rate": 0.1639,
+  "nurse_ratio": 6.5
+ },
+ {
+  "month": "2024-10",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 79,
+  "readmissions": 13,
+  "rate": 0.1646,
+  "nurse_ratio": 7.48
+ },
+ {
+  "month": "2024-10",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 173,
+  "readmissions": 16,
+  "rate": 0.0925,
+  "nurse_ratio": 5.27
+ },
+ {
+  "month": "2024-10",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 99,
+  "readmissions": 10,
+  "rate": 0.101,
+  "nurse_ratio": 6.01
+ },
+ {
+  "month": "2024-10",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 71,
+  "readmissions": 7,
+  "rate": 0.0986,
+  "nurse_ratio": 7.32
+ },
+ {
+  "month": "2024-10",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 159,
+  "readmissions": 21,
+  "rate": 0.1321,
+  "nurse_ratio": 5.37
+ },
+ {
+  "month": "2024-10",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 88,
+  "readmissions": 12,
+  "rate": 0.1364,
+  "nurse_ratio": 5.28
+ },
+ {
+  "month": "2024-10",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 62,
+  "readmissions": 9,
+  "rate": 0.1452,
+  "nurse_ratio": 6.74
+ },
+ {
+  "month": "2024-10",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 115,
+  "readmissions": 16,
+  "rate": 0.1391,
+  "nurse_ratio": 4.62
+ },
+ {
+  "month": "2024-10",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 68,
+  "readmissions": 10,
+  "rate": 0.1471,
+  "nurse_ratio": 5.23
+ },
+ {
+  "month": "2024-10",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 45,
+  "readmissions": 7,
+  "rate": 0.1556,
+  "nurse_ratio": 6.75
+ },
+ {
+  "month": "2024-11",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 161,
+  "readmissions": 23,
+  "rate": 0.1429,
+  "nurse_ratio": 4.59
+ },
+ {
+  "month": "2024-11",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 92,
+  "readmissions": 14,
+  "rate": 0.1522,
+  "nurse_ratio": 5.86
+ },
+ {
+  "month": "2024-11",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 59,
+  "readmissions": 17,
+  "rate": 0.2881,
+  "nurse_ratio": 7.43
+ },
+ {
+  "month": "2024-11",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 121,
+  "readmissions": 17,
+  "rate": 0.1405,
+  "nurse_ratio": 5.83
+ },
+ {
+  "month": "2024-11",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 77,
+  "readmissions": 11,
+  "rate": 0.1429,
+  "nurse_ratio": 5.52
+ },
+ {
+  "month": "2024-11",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 51,
+  "readmissions": 14,
+  "rate": 0.2745,
+  "nurse_ratio": 7.55
+ },
+ {
+  "month": "2024-11",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 194,
+  "readmissions": 29,
+  "rate": 0.1495,
+  "nurse_ratio": 4.7
+ },
+ {
+  "month": "2024-11",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 119,
+  "readmissions": 17,
+  "rate": 0.1429,
+  "nurse_ratio": 5.05
+ },
+ {
+  "month": "2024-11",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 76,
+  "readmissions": 12,
+  "rate": 0.1579,
+  "nurse_ratio": 6.62
+ },
+ {
+  "month": "2024-11",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 172,
+  "readmissions": 16,
+  "rate": 0.093,
+  "nurse_ratio": 5.95
+ },
+ {
+  "month": "2024-11",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 104,
+  "readmissions": 10,
+  "rate": 0.0962,
+  "nurse_ratio": 5.01
+ },
+ {
+  "month": "2024-11",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 67,
+  "readmissions": 7,
+  "rate": 0.1045,
+  "nurse_ratio": 7.41
+ },
+ {
+  "month": "2024-11",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 161,
+  "readmissions": 21,
+  "rate": 0.1304,
+  "nurse_ratio": 5.78
+ },
+ {
+  "month": "2024-11",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 85,
+  "readmissions": 12,
+  "rate": 0.1412,
+  "nurse_ratio": 6.15
+ },
+ {
+  "month": "2024-11",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 60,
+  "readmissions": 8,
+  "rate": 0.1333,
+  "nurse_ratio": 7.04
+ },
+ {
+  "month": "2024-11",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 118,
+  "readmissions": 16,
+  "rate": 0.1356,
+  "nurse_ratio": 4.83
+ },
+ {
+  "month": "2024-11",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 64,
+  "readmissions": 9,
+  "rate": 0.1406,
+  "nurse_ratio": 5
+ },
+ {
+  "month": "2024-11",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 43,
+  "readmissions": 6,
+  "rate": 0.1395,
+  "nurse_ratio": 6.65
+ },
+ {
+  "month": "2024-12",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 149,
+  "readmissions": 22,
+  "rate": 0.1477,
+  "nurse_ratio": 4.71
+ },
+ {
+  "month": "2024-12",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 87,
+  "readmissions": 13,
+  "rate": 0.1494,
+  "nurse_ratio": 4.97
+ },
+ {
+  "month": "2024-12",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 59,
+  "readmissions": 17,
+  "rate": 0.2881,
+  "nurse_ratio": 6.44
+ },
+ {
+  "month": "2024-12",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 125,
+  "readmissions": 17,
+  "rate": 0.136,
+  "nurse_ratio": 5.08
+ },
+ {
+  "month": "2024-12",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 81,
+  "readmissions": 11,
+  "rate": 0.1358,
+  "nurse_ratio": 4.69
+ },
+ {
+  "month": "2024-12",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 53,
+  "readmissions": 14,
+  "rate": 0.2642,
+  "nurse_ratio": 6.44
+ },
+ {
+  "month": "2024-12",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 185,
+  "readmissions": 28,
+  "rate": 0.1514,
+  "nurse_ratio": 5.75
+ },
+ {
+  "month": "2024-12",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 110,
+  "readmissions": 17,
+  "rate": 0.1545,
+  "nurse_ratio": 5.64
+ },
+ {
+  "month": "2024-12",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 74,
+  "readmissions": 11,
+  "rate": 0.1486,
+  "nurse_ratio": 6.5
+ },
+ {
+  "month": "2024-12",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 165,
+  "readmissions": 14,
+  "rate": 0.0848,
+  "nurse_ratio": 4.96
+ },
+ {
+  "month": "2024-12",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 97,
+  "readmissions": 9,
+  "rate": 0.0928,
+  "nurse_ratio": 5.38
+ },
+ {
+  "month": "2024-12",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 65,
+  "readmissions": 6,
+  "rate": 0.0923,
+  "nurse_ratio": 7.14
+ },
+ {
+  "month": "2024-12",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 154,
+  "readmissions": 19,
+  "rate": 0.1234,
+  "nurse_ratio": 4.92
+ },
+ {
+  "month": "2024-12",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 92,
+  "readmissions": 12,
+  "rate": 0.1304,
+  "nurse_ratio": 5.05
+ },
+ {
+  "month": "2024-12",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 56,
+  "readmissions": 8,
+  "rate": 0.1429,
+  "nurse_ratio": 7.26
+ },
+ {
+  "month": "2024-12",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 110,
+  "readmissions": 15,
+  "rate": 0.1364,
+  "nurse_ratio": 4.94
+ },
+ {
+  "month": "2024-12",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 65,
+  "readmissions": 9,
+  "rate": 0.1385,
+  "nurse_ratio": 5.76
+ },
+ {
+  "month": "2024-12",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 46,
+  "readmissions": 7,
+  "rate": 0.1522,
+  "nurse_ratio": 6.29
+ },
+ {
+  "month": "2025-01",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 152,
+  "readmissions": 21,
+  "rate": 0.1382,
+  "nurse_ratio": 4.52
+ },
+ {
+  "month": "2025-01",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 93,
+  "readmissions": 14,
+  "rate": 0.1505,
+  "nurse_ratio": 4.51
+ },
+ {
+  "month": "2025-01",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 61,
+  "readmissions": 18,
+  "rate": 0.2951,
+  "nurse_ratio": 6.94
+ },
+ {
+  "month": "2025-01",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 130,
+  "readmissions": 19,
+  "rate": 0.1462,
+  "nurse_ratio": 5.52
+ },
+ {
+  "month": "2025-01",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 81,
+  "readmissions": 11,
+  "rate": 0.1358,
+  "nurse_ratio": 5.3
+ },
+ {
+  "month": "2025-01",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 53,
+  "readmissions": 14,
+  "rate": 0.2642,
+  "nurse_ratio": 6.46
+ },
+ {
+  "month": "2025-01",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 188,
+  "readmissions": 27,
+  "rate": 0.1436,
+  "nurse_ratio": 4.72
+ },
+ {
+  "month": "2025-01",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 115,
+  "readmissions": 18,
+  "rate": 0.1565,
+  "nurse_ratio": 5.21
+ },
+ {
+  "month": "2025-01",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 75,
+  "readmissions": 13,
+  "rate": 0.1733,
+  "nurse_ratio": 8.33
+ },
+ {
+  "month": "2025-01",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 182,
+  "readmissions": 16,
+  "rate": 0.0879,
+  "nurse_ratio": 5.08
+ },
+ {
+  "month": "2025-01",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 105,
+  "readmissions": 10,
+  "rate": 0.0952,
+  "nurse_ratio": 5.33
+ },
+ {
+  "month": "2025-01",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 65,
+  "readmissions": 6,
+  "rate": 0.0923,
+  "nurse_ratio": 6.6
+ },
+ {
+  "month": "2025-01",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 154,
+  "readmissions": 19,
+  "rate": 0.1234,
+  "nurse_ratio": 4.45
+ },
+ {
+  "month": "2025-01",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 91,
+  "readmissions": 12,
+  "rate": 0.1319,
+  "nurse_ratio": 5.7
+ },
+ {
+  "month": "2025-01",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 59,
+  "readmissions": 8,
+  "rate": 0.1356,
+  "nurse_ratio": 7.29
+ },
+ {
+  "month": "2025-01",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 100,
+  "readmissions": 14,
+  "rate": 0.14,
+  "nurse_ratio": 4.98
+ },
+ {
+  "month": "2025-01",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 68,
+  "readmissions": 10,
+  "rate": 0.1471,
+  "nurse_ratio": 4.78
+ },
+ {
+  "month": "2025-01",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 45,
+  "readmissions": 7,
+  "rate": 0.1556,
+  "nurse_ratio": 7.44
+ },
+ {
+  "month": "2025-02",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 147,
+  "readmissions": 22,
+  "rate": 0.1497,
+  "nurse_ratio": 4.76
+ },
+ {
+  "month": "2025-02",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 87,
+  "readmissions": 14,
+  "rate": 0.1609,
+  "nurse_ratio": 5.22
+ },
+ {
+  "month": "2025-02",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 60,
+  "readmissions": 17,
+  "rate": 0.2833,
+  "nurse_ratio": 6.68
+ },
+ {
+  "month": "2025-02",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 130,
+  "readmissions": 18,
+  "rate": 0.1385,
+  "nurse_ratio": 5.27
+ },
+ {
+  "month": "2025-02",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 75,
+  "readmissions": 10,
+  "rate": 0.1333,
+  "nurse_ratio": 4.72
+ },
+ {
+  "month": "2025-02",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 50,
+  "readmissions": 14,
+  "rate": 0.28,
+  "nurse_ratio": 7.39
+ },
+ {
+  "month": "2025-02",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 190,
+  "readmissions": 28,
+  "rate": 0.1474,
+  "nurse_ratio": 4.98
+ },
+ {
+  "month": "2025-02",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 109,
+  "readmissions": 16,
+  "rate": 0.1468,
+  "nurse_ratio": 4.73
+ },
+ {
+  "month": "2025-02",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 76,
+  "readmissions": 12,
+  "rate": 0.1579,
+  "nurse_ratio": 7.15
+ },
+ {
+  "month": "2025-02",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 175,
+  "readmissions": 15,
+  "rate": 0.0857,
+  "nurse_ratio": 4.96
+ },
+ {
+  "month": "2025-02",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 101,
+  "readmissions": 9,
+  "rate": 0.0891,
+  "nurse_ratio": 4.57
+ },
+ {
+  "month": "2025-02",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 66,
+  "readmissions": 6,
+  "rate": 0.0909,
+  "nurse_ratio": 7.45
+ },
+ {
+  "month": "2025-02",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 145,
+  "readmissions": 18,
+  "rate": 0.1241,
+  "nurse_ratio": 5.06
+ },
+ {
+  "month": "2025-02",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 83,
+  "readmissions": 11,
+  "rate": 0.1325,
+  "nurse_ratio": 5.37
+ },
+ {
+  "month": "2025-02",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 54,
+  "readmissions": 7,
+  "rate": 0.1296,
+  "nurse_ratio": 7.12
+ },
+ {
+  "month": "2025-02",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 118,
+  "readmissions": 16,
+  "rate": 0.1356,
+  "nurse_ratio": 5.25
+ },
+ {
+  "month": "2025-02",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 68,
+  "readmissions": 9,
+  "rate": 0.1324,
+  "nurse_ratio": 4.64
+ },
+ {
+  "month": "2025-02",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 43,
+  "readmissions": 6,
+  "rate": 0.1395,
+  "nurse_ratio": 6.71
+ },
+ {
+  "month": "2025-03",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 145,
+  "readmissions": 22,
+  "rate": 0.1517,
+  "nurse_ratio": 4.65
+ },
+ {
+  "month": "2025-03",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 83,
+  "readmissions": 14,
+  "rate": 0.1687,
+  "nurse_ratio": 6
+ },
+ {
+  "month": "2025-03",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 63,
+  "readmissions": 19,
+  "rate": 0.3016,
+  "nurse_ratio": 6.95
+ },
+ {
+  "month": "2025-03",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 126,
+  "readmissions": 18,
+  "rate": 0.1429,
+  "nurse_ratio": 5.6
+ },
+ {
+  "month": "2025-03",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 79,
+  "readmissions": 12,
+  "rate": 0.1519,
+  "nurse_ratio": 5.83
+ },
+ {
+  "month": "2025-03",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 55,
+  "readmissions": 15,
+  "rate": 0.2727,
+  "nurse_ratio": 6.95
+ },
+ {
+  "month": "2025-03",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 190,
+  "readmissions": 27,
+  "rate": 0.1421,
+  "nurse_ratio": 5.48
+ },
+ {
+  "month": "2025-03",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 129,
+  "readmissions": 20,
+  "rate": 0.155,
+  "nurse_ratio": 5.38
+ },
+ {
+  "month": "2025-03",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 77,
+  "readmissions": 12,
+  "rate": 0.1558,
+  "nurse_ratio": 7.24
+ },
+ {
+  "month": "2025-03",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 166,
+  "readmissions": 14,
+  "rate": 0.0843,
+  "nurse_ratio": 5.08
+ },
+ {
+  "month": "2025-03",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 101,
+  "readmissions": 9,
+  "rate": 0.0891,
+  "nurse_ratio": 5.94
+ },
+ {
+  "month": "2025-03",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 71,
+  "readmissions": 6,
+  "rate": 0.0845,
+  "nurse_ratio": 6.54
+ },
+ {
+  "month": "2025-03",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 151,
+  "readmissions": 19,
+  "rate": 0.1258,
+  "nurse_ratio": 5.06
+ },
+ {
+  "month": "2025-03",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 88,
+  "readmissions": 11,
+  "rate": 0.125,
+  "nurse_ratio": 4.96
+ },
+ {
+  "month": "2025-03",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 61,
+  "readmissions": 9,
+  "rate": 0.1475,
+  "nurse_ratio": 7.73
+ },
+ {
+  "month": "2025-03",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 113,
+  "readmissions": 16,
+  "rate": 0.1416,
+  "nurse_ratio": 5.01
+ },
+ {
+  "month": "2025-03",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 67,
+  "readmissions": 9,
+  "rate": 0.1343,
+  "nurse_ratio": 5.28
+ },
+ {
+  "month": "2025-03",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 44,
+  "readmissions": 7,
+  "rate": 0.1591,
+  "nurse_ratio": 7.35
+ },
+ {
+  "month": "2025-04",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 145,
+  "readmissions": 22,
+  "rate": 0.1517,
+  "nurse_ratio": 4.18
+ },
+ {
+  "month": "2025-04",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 93,
+  "readmissions": 16,
+  "rate": 0.172,
+  "nurse_ratio": 5.94
+ },
+ {
+  "month": "2025-04",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 59,
+  "readmissions": 18,
+  "rate": 0.3051,
+  "nurse_ratio": 6.96
+ },
+ {
+  "month": "2025-04",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 120,
+  "readmissions": 17,
+  "rate": 0.1417,
+  "nurse_ratio": 5.19
+ },
+ {
+  "month": "2025-04",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 77,
+  "readmissions": 11,
+  "rate": 0.1429,
+  "nurse_ratio": 5.29
+ },
+ {
+  "month": "2025-04",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 53,
+  "readmissions": 16,
+  "rate": 0.3019,
+  "nurse_ratio": 8.6
+ },
+ {
+  "month": "2025-04",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 191,
+  "readmissions": 28,
+  "rate": 0.1466,
+  "nurse_ratio": 4.82
+ },
+ {
+  "month": "2025-04",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 109,
+  "readmissions": 16,
+  "rate": 0.1468,
+  "nurse_ratio": 5.29
+ },
+ {
+  "month": "2025-04",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 76,
+  "readmissions": 13,
+  "rate": 0.1711,
+  "nurse_ratio": 8.2
+ },
+ {
+  "month": "2025-04",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 165,
+  "readmissions": 14,
+  "rate": 0.0848,
+  "nurse_ratio": 4.58
+ },
+ {
+  "month": "2025-04",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 97,
+  "readmissions": 9,
+  "rate": 0.0928,
+  "nurse_ratio": 5.71
+ },
+ {
+  "month": "2025-04",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 68,
+  "readmissions": 6,
+  "rate": 0.0882,
+  "nurse_ratio": 6.19
+ },
+ {
+  "month": "2025-04",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 145,
+  "readmissions": 18,
+  "rate": 0.1241,
+  "nurse_ratio": 5.26
+ },
+ {
+  "month": "2025-04",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 93,
+  "readmissions": 13,
+  "rate": 0.1398,
+  "nurse_ratio": 6.39
+ },
+ {
+  "month": "2025-04",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 58,
+  "readmissions": 8,
+  "rate": 0.1379,
+  "nurse_ratio": 6.47
+ },
+ {
+  "month": "2025-04",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 110,
+  "readmissions": 15,
+  "rate": 0.1364,
+  "nurse_ratio": 4.97
+ },
+ {
+  "month": "2025-04",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 72,
+  "readmissions": 11,
+  "rate": 0.1528,
+  "nurse_ratio": 5.55
+ },
+ {
+  "month": "2025-04",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 43,
+  "readmissions": 6,
+  "rate": 0.1395,
+  "nurse_ratio": 6.28
+ },
+ {
+  "month": "2025-05",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 148,
+  "readmissions": 24,
+  "rate": 0.1622,
+  "nurse_ratio": 5.68
+ },
+ {
+  "month": "2025-05",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 90,
+  "readmissions": 15,
+  "rate": 0.1667,
+  "nurse_ratio": 5.31
+ },
+ {
+  "month": "2025-05",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 57,
+  "readmissions": 18,
+  "rate": 0.3158,
+  "nurse_ratio": 7.05
+ },
+ {
+  "month": "2025-05",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 135,
+  "readmissions": 19,
+  "rate": 0.1407,
+  "nurse_ratio": 4.27
+ },
+ {
+  "month": "2025-05",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 80,
+  "readmissions": 12,
+  "rate": 0.15,
+  "nurse_ratio": 4.84
+ },
+ {
+  "month": "2025-05",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 56,
+  "readmissions": 16,
+  "rate": 0.2857,
+  "nurse_ratio": 7.02
+ },
+ {
+  "month": "2025-05",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 195,
+  "readmissions": 27,
+  "rate": 0.1385,
+  "nurse_ratio": 4.85
+ },
+ {
+  "month": "2025-05",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 108,
+  "readmissions": 16,
+  "rate": 0.1481,
+  "nurse_ratio": 5.51
+ },
+ {
+  "month": "2025-05",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 76,
+  "readmissions": 12,
+  "rate": 0.1579,
+  "nurse_ratio": 6.89
+ },
+ {
+  "month": "2025-05",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 173,
+  "readmissions": 14,
+  "rate": 0.0809,
+  "nurse_ratio": 5.1
+ },
+ {
+  "month": "2025-05",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 101,
+  "readmissions": 9,
+  "rate": 0.0891,
+  "nurse_ratio": 5.02
+ },
+ {
+  "month": "2025-05",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 70,
+  "readmissions": 7,
+  "rate": 0.1,
+  "nurse_ratio": 7.71
+ },
+ {
+  "month": "2025-05",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 137,
+  "readmissions": 16,
+  "rate": 0.1168,
+  "nurse_ratio": 5.22
+ },
+ {
+  "month": "2025-05",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 87,
+  "readmissions": 11,
+  "rate": 0.1264,
+  "nurse_ratio": 5.73
+ },
+ {
+  "month": "2025-05",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 59,
+  "readmissions": 8,
+  "rate": 0.1356,
+  "nurse_ratio": 7.79
+ },
+ {
+  "month": "2025-05",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 105,
+  "readmissions": 15,
+  "rate": 0.1429,
+  "nurse_ratio": 5.52
+ },
+ {
+  "month": "2025-05",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 67,
+  "readmissions": 9,
+  "rate": 0.1343,
+  "nurse_ratio": 5.27
+ },
+ {
+  "month": "2025-05",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 42,
+  "readmissions": 6,
+  "rate": 0.1429,
+  "nurse_ratio": 7.58
+ },
+ {
+  "month": "2025-06",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 144,
+  "readmissions": 23,
+  "rate": 0.1597,
+  "nurse_ratio": 5.15
+ },
+ {
+  "month": "2025-06",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 93,
+  "readmissions": 16,
+  "rate": 0.172,
+  "nurse_ratio": 5.3
+ },
+ {
+  "month": "2025-06",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 60,
+  "readmissions": 20,
+  "rate": 0.3333,
+  "nurse_ratio": 7.22
+ },
+ {
+  "month": "2025-06",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 133,
+  "readmissions": 18,
+  "rate": 0.1353,
+  "nurse_ratio": 4.8
+ },
+ {
+  "month": "2025-06",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 76,
+  "readmissions": 12,
+  "rate": 0.1579,
+  "nurse_ratio": 6.03
+ },
+ {
+  "month": "2025-06",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 57,
+  "readmissions": 16,
+  "rate": 0.2807,
+  "nurse_ratio": 6.37
+ },
+ {
+  "month": "2025-06",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 187,
+  "readmissions": 27,
+  "rate": 0.1444,
+  "nurse_ratio": 5.46
+ },
+ {
+  "month": "2025-06",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 117,
+  "readmissions": 17,
+  "rate": 0.1453,
+  "nurse_ratio": 5.46
+ },
+ {
+  "month": "2025-06",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 71,
+  "readmissions": 11,
+  "rate": 0.1549,
+  "nurse_ratio": 7.03
+ },
+ {
+  "month": "2025-06",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 172,
+  "readmissions": 14,
+  "rate": 0.0814,
+  "nurse_ratio": 4.6
+ },
+ {
+  "month": "2025-06",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 103,
+  "readmissions": 8,
+  "rate": 0.0777,
+  "nurse_ratio": 4.74
+ },
+ {
+  "month": "2025-06",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 66,
+  "readmissions": 6,
+  "rate": 0.0909,
+  "nurse_ratio": 6.1
+ },
+ {
+  "month": "2025-06",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 152,
+  "readmissions": 19,
+  "rate": 0.125,
+  "nurse_ratio": 5.21
+ },
+ {
+  "month": "2025-06",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 87,
+  "readmissions": 11,
+  "rate": 0.1264,
+  "nurse_ratio": 5.53
+ },
+ {
+  "month": "2025-06",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 60,
+  "readmissions": 8,
+  "rate": 0.1333,
+  "nurse_ratio": 8.24
+ },
+ {
+  "month": "2025-06",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 111,
+  "readmissions": 15,
+  "rate": 0.1351,
+  "nurse_ratio": 5.35
+ },
+ {
+  "month": "2025-06",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 65,
+  "readmissions": 9,
+  "rate": 0.1385,
+  "nurse_ratio": 5.59
+ },
+ {
+  "month": "2025-06",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 43,
+  "readmissions": 6,
+  "rate": 0.1395,
+  "nurse_ratio": 6.15
+ },
+ {
+  "month": "2025-07",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 146,
+  "readmissions": 25,
+  "rate": 0.1712,
+  "nurse_ratio": 5.6
+ },
+ {
+  "month": "2025-07",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 90,
+  "readmissions": 15,
+  "rate": 0.1667,
+  "nurse_ratio": 5.06
+ },
+ {
+  "month": "2025-07",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 58,
+  "readmissions": 18,
+  "rate": 0.3103,
+  "nurse_ratio": 6.84
+ },
+ {
+  "month": "2025-07",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 133,
+  "readmissions": 19,
+  "rate": 0.1429,
+  "nurse_ratio": 4.55
+ },
+ {
+  "month": "2025-07",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 75,
+  "readmissions": 12,
+  "rate": 0.16,
+  "nurse_ratio": 5.56
+ },
+ {
+  "month": "2025-07",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 58,
+  "readmissions": 18,
+  "rate": 0.3103,
+  "nurse_ratio": 7.03
+ },
+ {
+  "month": "2025-07",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 210,
+  "readmissions": 30,
+  "rate": 0.1429,
+  "nurse_ratio": 5.62
+ },
+ {
+  "month": "2025-07",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 114,
+  "readmissions": 17,
+  "rate": 0.1491,
+  "nurse_ratio": 5.43
+ },
+ {
+  "month": "2025-07",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 75,
+  "readmissions": 12,
+  "rate": 0.16,
+  "nurse_ratio": 7.51
+ },
+ {
+  "month": "2025-07",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 172,
+  "readmissions": 14,
+  "rate": 0.0814,
+  "nurse_ratio": 5.34
+ },
+ {
+  "month": "2025-07",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 99,
+  "readmissions": 8,
+  "rate": 0.0808,
+  "nurse_ratio": 5.52
+ },
+ {
+  "month": "2025-07",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 69,
+  "readmissions": 6,
+  "rate": 0.087,
+  "nurse_ratio": 7.22
+ },
+ {
+  "month": "2025-07",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 144,
+  "readmissions": 18,
+  "rate": 0.125,
+  "nurse_ratio": 5.3
+ },
+ {
+  "month": "2025-07",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 86,
+  "readmissions": 11,
+  "rate": 0.1279,
+  "nurse_ratio": 5.3
+ },
+ {
+  "month": "2025-07",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 59,
+  "readmissions": 8,
+  "rate": 0.1356,
+  "nurse_ratio": 7.51
+ },
+ {
+  "month": "2025-07",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 104,
+  "readmissions": 13,
+  "rate": 0.125,
+  "nurse_ratio": 4.4
+ },
+ {
+  "month": "2025-07",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 66,
+  "readmissions": 9,
+  "rate": 0.1364,
+  "nurse_ratio": 4.92
+ },
+ {
+  "month": "2025-07",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 44,
+  "readmissions": 6,
+  "rate": 0.1364,
+  "nurse_ratio": 6.82
+ },
+ {
+  "month": "2025-08",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 145,
+  "readmissions": 24,
+  "rate": 0.1655,
+  "nurse_ratio": 4.89
+ },
+ {
+  "month": "2025-08",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 84,
+  "readmissions": 15,
+  "rate": 0.1786,
+  "nurse_ratio": 5.62
+ },
+ {
+  "month": "2025-08",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 66,
+  "readmissions": 22,
+  "rate": 0.3333,
+  "nurse_ratio": 7.44
+ },
+ {
+  "month": "2025-08",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 125,
+  "readmissions": 18,
+  "rate": 0.144,
+  "nurse_ratio": 4.48
+ },
+ {
+  "month": "2025-08",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 79,
+  "readmissions": 12,
+  "rate": 0.1519,
+  "nurse_ratio": 5.11
+ },
+ {
+  "month": "2025-08",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 52,
+  "readmissions": 15,
+  "rate": 0.2885,
+  "nurse_ratio": 6.99
+ },
+ {
+  "month": "2025-08",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 191,
+  "readmissions": 28,
+  "rate": 0.1466,
+  "nurse_ratio": 4.91
+ },
+ {
+  "month": "2025-08",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 115,
+  "readmissions": 17,
+  "rate": 0.1478,
+  "nurse_ratio": 5.45
+ },
+ {
+  "month": "2025-08",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 78,
+  "readmissions": 12,
+  "rate": 0.1538,
+  "nurse_ratio": 6.84
+ },
+ {
+  "month": "2025-08",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 171,
+  "readmissions": 14,
+  "rate": 0.0819,
+  "nurse_ratio": 5.09
+ },
+ {
+  "month": "2025-08",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 105,
+  "readmissions": 9,
+  "rate": 0.0857,
+  "nurse_ratio": 4.9
+ },
+ {
+  "month": "2025-08",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 71,
+  "readmissions": 6,
+  "rate": 0.0845,
+  "nurse_ratio": 7.25
+ },
+ {
+  "month": "2025-08",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 157,
+  "readmissions": 18,
+  "rate": 0.1146,
+  "nurse_ratio": 4.84
+ },
+ {
+  "month": "2025-08",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 82,
+  "readmissions": 10,
+  "rate": 0.122,
+  "nurse_ratio": 5.42
+ },
+ {
+  "month": "2025-08",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 65,
+  "readmissions": 8,
+  "rate": 0.1231,
+  "nurse_ratio": 7.43
+ },
+ {
+  "month": "2025-08",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 103,
+  "readmissions": 13,
+  "rate": 0.1262,
+  "nurse_ratio": 4.72
+ },
+ {
+  "month": "2025-08",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 64,
+  "readmissions": 8,
+  "rate": 0.125,
+  "nurse_ratio": 5.37
+ },
+ {
+  "month": "2025-08",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 40,
+  "readmissions": 6,
+  "rate": 0.15,
+  "nurse_ratio": 6.88
+ },
+ {
+  "month": "2025-09",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 146,
+  "readmissions": 24,
+  "rate": 0.1644,
+  "nurse_ratio": 4.68
+ },
+ {
+  "month": "2025-09",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 81,
+  "readmissions": 12,
+  "rate": 0.1481,
+  "nurse_ratio": 4.16
+ },
+ {
+  "month": "2025-09",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 66,
+  "readmissions": 22,
+  "rate": 0.3333,
+  "nurse_ratio": 7.08
+ },
+ {
+  "month": "2025-09",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 124,
+  "readmissions": 18,
+  "rate": 0.1452,
+  "nurse_ratio": 4.87
+ },
+ {
+  "month": "2025-09",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 77,
+  "readmissions": 12,
+  "rate": 0.1558,
+  "nurse_ratio": 5.73
+ },
+ {
+  "month": "2025-09",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 52,
+  "readmissions": 15,
+  "rate": 0.2885,
+  "nurse_ratio": 6.38
+ },
+ {
+  "month": "2025-09",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 191,
+  "readmissions": 26,
+  "rate": 0.1361,
+  "nurse_ratio": 5.31
+ },
+ {
+  "month": "2025-09",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 118,
+  "readmissions": 16,
+  "rate": 0.1356,
+  "nurse_ratio": 4.6
+ },
+ {
+  "month": "2025-09",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 85,
+  "readmissions": 13,
+  "rate": 0.1529,
+  "nurse_ratio": 7.57
+ },
+ {
+  "month": "2025-09",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 175,
+  "readmissions": 14,
+  "rate": 0.08,
+  "nurse_ratio": 4.73
+ },
+ {
+  "month": "2025-09",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 109,
+  "readmissions": 9,
+  "rate": 0.0826,
+  "nurse_ratio": 5.42
+ },
+ {
+  "month": "2025-09",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 62,
+  "readmissions": 5,
+  "rate": 0.0806,
+  "nurse_ratio": 5.44
+ },
+ {
+  "month": "2025-09",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 148,
+  "readmissions": 17,
+  "rate": 0.1149,
+  "nurse_ratio": 4.8
+ },
+ {
+  "month": "2025-09",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 86,
+  "readmissions": 10,
+  "rate": 0.1163,
+  "nurse_ratio": 4.8
+ },
+ {
+  "month": "2025-09",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 58,
+  "readmissions": 8,
+  "rate": 0.1379,
+  "nurse_ratio": 6.78
+ },
+ {
+  "month": "2025-09",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 111,
+  "readmissions": 14,
+  "rate": 0.1261,
+  "nurse_ratio": 4.5
+ },
+ {
+  "month": "2025-09",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 65,
+  "readmissions": 9,
+  "rate": 0.1385,
+  "nurse_ratio": 5.32
+ },
+ {
+  "month": "2025-09",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 43,
+  "readmissions": 6,
+  "rate": 0.1395,
+  "nurse_ratio": 6.17
+ },
+ {
+  "month": "2025-10",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 151,
+  "readmissions": 25,
+  "rate": 0.1656,
+  "nurse_ratio": 4.14
+ },
+ {
+  "month": "2025-10",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 88,
+  "readmissions": 15,
+  "rate": 0.1705,
+  "nurse_ratio": 4.8
+ },
+ {
+  "month": "2025-10",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 62,
+  "readmissions": 22,
+  "rate": 0.3548,
+  "nurse_ratio": 7.91
+ },
+ {
+  "month": "2025-10",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 128,
+  "readmissions": 19,
+  "rate": 0.1484,
+  "nurse_ratio": 4.43
+ },
+ {
+  "month": "2025-10",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 82,
+  "readmissions": 12,
+  "rate": 0.1463,
+  "nurse_ratio": 4.36
+ },
+ {
+  "month": "2025-10",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 50,
+  "readmissions": 15,
+  "rate": 0.3,
+  "nurse_ratio": 6.31
+ },
+ {
+  "month": "2025-10",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 205,
+  "readmissions": 28,
+  "rate": 0.1366,
+  "nurse_ratio": 5.84
+ },
+ {
+  "month": "2025-10",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 117,
+  "readmissions": 17,
+  "rate": 0.1453,
+  "nurse_ratio": 5.39
+ },
+ {
+  "month": "2025-10",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 78,
+  "readmissions": 12,
+  "rate": 0.1538,
+  "nurse_ratio": 7.18
+ },
+ {
+  "month": "2025-10",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 172,
+  "readmissions": 14,
+  "rate": 0.0814,
+  "nurse_ratio": 5.19
+ },
+ {
+  "month": "2025-10",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 99,
+  "readmissions": 8,
+  "rate": 0.0808,
+  "nurse_ratio": 4.95
+ },
+ {
+  "month": "2025-10",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 67,
+  "readmissions": 6,
+  "rate": 0.0896,
+  "nurse_ratio": 7.51
+ },
+ {
+  "month": "2025-10",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 141,
+  "readmissions": 17,
+  "rate": 0.1206,
+  "nurse_ratio": 4.72
+ },
+ {
+  "month": "2025-10",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 95,
+  "readmissions": 12,
+  "rate": 0.1263,
+  "nurse_ratio": 5.54
+ },
+ {
+  "month": "2025-10",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 57,
+  "readmissions": 7,
+  "rate": 0.1228,
+  "nurse_ratio": 7.12
+ },
+ {
+  "month": "2025-10",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 108,
+  "readmissions": 13,
+  "rate": 0.1204,
+  "nurse_ratio": 4.1
+ },
+ {
+  "month": "2025-10",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 64,
+  "readmissions": 9,
+  "rate": 0.1406,
+  "nurse_ratio": 5.52
+ },
+ {
+  "month": "2025-10",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 43,
+  "readmissions": 6,
+  "rate": 0.1395,
+  "nurse_ratio": 8.04
+ },
+ {
+  "month": "2025-11",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 150,
+  "readmissions": 25,
+  "rate": 0.1667,
+  "nurse_ratio": 4.8
+ },
+ {
+  "month": "2025-11",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 92,
+  "readmissions": 16,
+  "rate": 0.1739,
+  "nurse_ratio": 5.58
+ },
+ {
+  "month": "2025-11",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 57,
+  "readmissions": 21,
+  "rate": 0.3684,
+  "nurse_ratio": 8.23
+ },
+ {
+  "month": "2025-11",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 130,
+  "readmissions": 20,
+  "rate": 0.1538,
+  "nurse_ratio": 5.11
+ },
+ {
+  "month": "2025-11",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 77,
+  "readmissions": 13,
+  "rate": 0.1688,
+  "nurse_ratio": 5.95
+ },
+ {
+  "month": "2025-11",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 53,
+  "readmissions": 16,
+  "rate": 0.3019,
+  "nurse_ratio": 6.99
+ },
+ {
+  "month": "2025-11",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 181,
+  "readmissions": 26,
+  "rate": 0.1436,
+  "nurse_ratio": 5.96
+ },
+ {
+  "month": "2025-11",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 111,
+  "readmissions": 16,
+  "rate": 0.1441,
+  "nurse_ratio": 5.91
+ },
+ {
+  "month": "2025-11",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 73,
+  "readmissions": 11,
+  "rate": 0.1507,
+  "nurse_ratio": 6.85
+ },
+ {
+  "month": "2025-11",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 159,
+  "readmissions": 13,
+  "rate": 0.0818,
+  "nurse_ratio": 5.7
+ },
+ {
+  "month": "2025-11",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 102,
+  "readmissions": 8,
+  "rate": 0.0784,
+  "nurse_ratio": 5.62
+ },
+ {
+  "month": "2025-11",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 70,
+  "readmissions": 6,
+  "rate": 0.0857,
+  "nurse_ratio": 7.03
+ },
+ {
+  "month": "2025-11",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 154,
+  "readmissions": 18,
+  "rate": 0.1169,
+  "nurse_ratio": 4.85
+ },
+ {
+  "month": "2025-11",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 87,
+  "readmissions": 11,
+  "rate": 0.1264,
+  "nurse_ratio": 5.66
+ },
+ {
+  "month": "2025-11",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 60,
+  "readmissions": 8,
+  "rate": 0.1333,
+  "nurse_ratio": 7.63
+ },
+ {
+  "month": "2025-11",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 111,
+  "readmissions": 14,
+  "rate": 0.1261,
+  "nurse_ratio": 5.33
+ },
+ {
+  "month": "2025-11",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 64,
+  "readmissions": 9,
+  "rate": 0.1406,
+  "nurse_ratio": 6.35
+ },
+ {
+  "month": "2025-11",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 48,
+  "readmissions": 6,
+  "rate": 0.125,
+  "nurse_ratio": 6.86
+ },
+ {
+  "month": "2025-12",
+  "condition": "heart_failure",
+  "shift": "weekday_day",
+  "discharges": 151,
+  "readmissions": 26,
+  "rate": 0.1722,
+  "nurse_ratio": 4.84
+ },
+ {
+  "month": "2025-12",
+  "condition": "heart_failure",
+  "shift": "weekday_evening",
+  "discharges": 89,
+  "readmissions": 16,
+  "rate": 0.1798,
+  "nurse_ratio": 4.57
+ },
+ {
+  "month": "2025-12",
+  "condition": "heart_failure",
+  "shift": "weekend",
+  "discharges": 60,
+  "readmissions": 21,
+  "rate": 0.35,
+  "nurse_ratio": 6.66
+ },
+ {
+  "month": "2025-12",
+  "condition": "copd",
+  "shift": "weekday_day",
+  "discharges": 134,
+  "readmissions": 21,
+  "rate": 0.1567,
+  "nurse_ratio": 4.54
+ },
+ {
+  "month": "2025-12",
+  "condition": "copd",
+  "shift": "weekday_evening",
+  "discharges": 79,
+  "readmissions": 13,
+  "rate": 0.1646,
+  "nurse_ratio": 5.14
+ },
+ {
+  "month": "2025-12",
+  "condition": "copd",
+  "shift": "weekend",
+  "discharges": 51,
+  "readmissions": 16,
+  "rate": 0.3137,
+  "nurse_ratio": 6.72
+ },
+ {
+  "month": "2025-12",
+  "condition": "pneumonia",
+  "shift": "weekday_day",
+  "discharges": 184,
+  "readmissions": 25,
+  "rate": 0.1359,
+  "nurse_ratio": 5.19
+ },
+ {
+  "month": "2025-12",
+  "condition": "pneumonia",
+  "shift": "weekday_evening",
+  "discharges": 116,
+  "readmissions": 17,
+  "rate": 0.1466,
+  "nurse_ratio": 5.64
+ },
+ {
+  "month": "2025-12",
+  "condition": "pneumonia",
+  "shift": "weekend",
+  "discharges": 76,
+  "readmissions": 11,
+  "rate": 0.1447,
+  "nurse_ratio": 7.34
+ },
+ {
+  "month": "2025-12",
+  "condition": "hip_knee",
+  "shift": "weekday_day",
+  "discharges": 177,
+  "readmissions": 14,
+  "rate": 0.0791,
+  "nurse_ratio": 5.33
+ },
+ {
+  "month": "2025-12",
+  "condition": "hip_knee",
+  "shift": "weekday_evening",
+  "discharges": 99,
+  "readmissions": 8,
+  "rate": 0.0808,
+  "nurse_ratio": 6.07
+ },
+ {
+  "month": "2025-12",
+  "condition": "hip_knee",
+  "shift": "weekend",
+  "discharges": 70,
+  "readmissions": 6,
+  "rate": 0.0857,
+  "nurse_ratio": 7.12
+ },
+ {
+  "month": "2025-12",
+  "condition": "diabetes",
+  "shift": "weekday_day",
+  "discharges": 158,
+  "readmissions": 18,
+  "rate": 0.1139,
+  "nurse_ratio": 4.54
+ },
+ {
+  "month": "2025-12",
+  "condition": "diabetes",
+  "shift": "weekday_evening",
+  "discharges": 89,
+  "readmissions": 11,
+  "rate": 0.1236,
+  "nurse_ratio": 6.14
+ },
+ {
+  "month": "2025-12",
+  "condition": "diabetes",
+  "shift": "weekend",
+  "discharges": 58,
+  "readmissions": 7,
+  "rate": 0.1207,
+  "nurse_ratio": 7.07
+ },
+ {
+  "month": "2025-12",
+  "condition": "stroke",
+  "shift": "weekday_day",
+  "discharges": 111,
+  "readmissions": 14,
+  "rate": 0.1261,
+  "nurse_ratio": 5.32
+ },
+ {
+  "month": "2025-12",
+  "condition": "stroke",
+  "shift": "weekday_evening",
+  "discharges": 70,
+  "readmissions": 9,
+  "rate": 0.1286,
+  "nurse_ratio": 5.27
+ },
+ {
+  "month": "2025-12",
+  "condition": "stroke",
+  "shift": "weekend",
+  "discharges": 42,
+  "readmissions": 5,
+  "rate": 0.119,
+  "nurse_ratio": 6.2
+ }
+]
