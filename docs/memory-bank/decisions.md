@@ -10,3 +10,5 @@
 | 6 | 2026-11-06 | D3 (scales/paths) for charts, not Chart.js | Full control over direct labels and annotations | Chart.js |
 | 7 | 2026-11-06 | What-if uses a simple linear estimate, scope HF + COPD weekend only | Easy to explain to a non-analyst; matches planted data | Fitted curve, all conditions |
 | 8 | 2026-11-06 | Field named `nurse_ratio` (patients per nurse), `rate` derived | Matches data-notes; brief updated | `discharge_nurse_ratio` |
+| 9 | 2026-11-06 | Fetch `readmissions.json` at runtime from `public/` | Needed to show real loading and error states | Static JSON import |
+| 10 | 2026-11-06 | Coral `#bf3a30`, grey marks `#76868a` | AA contrast for small labels | Lighter coral `#d9534a` (about 3.7:1) |
