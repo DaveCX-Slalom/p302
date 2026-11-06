@@ -75,9 +75,20 @@ Update `activeContext.md` and `progress.md` at the end of every session so the h
 11. `Update memory bank, README, and BRIEF to match final build`
 
 ## 10. Review checklist (maps to rubric)
-- [ ] Site live, password-protected, all 6 beats work
-- [ ] Filters and slider work, including empty state
-- [ ] README and LICENSE in root, scaffolding organised
-- [ ] 10+ meaningful commits over several days
-- [ ] Design clearly healthcare-operations, not a generic template
-- [ ] BRIEF.md matches what shipped (update after build)
+- [ ] Site live, password-protected, all 6 beats work (all 6 beats work locally; deploy config is in the repo, the live site needs a Netlify account and `SITE_PASSWORD`)
+- [x] Filters and slider work, including empty state
+- [x] README and LICENSE in root, scaffolding organised
+- [ ] 10+ meaningful commits over several days (commits so far are all from one day)
+- [x] Design clearly healthcare-operations, not a generic template
+- [x] BRIEF.md matches what shipped (see section 11)
+
+## 11. As built (differences from the plan above)
+- **Charts:** D3 (scales and paths) rendering SVG in three components: `TrendChart` (beats 1 and 2), `BarChart` (beats 3 and 5), `ScatterChart` (beat 4).
+- **Data:** `rate` is a derived field. The app fetches `public/readmissions.json` at runtime so it can show loading and error states. `npm run data` regenerates it (seed 2024).
+- **Chips:** the condition chips appear in beats 2, 3 and 4 and share state. Beats 3 and 4 only show heart failure and COPD, so hiding both gives an empty state.
+- **Beat 4:** the scatter shows heart failure and COPD rows only (r = 0.86). Across all conditions the link is weak (r = 0.44), so including them would blur the story.
+- **Beat 5:** a linear estimate from one pooled HF + COPD slope, on weekend discharges from the last 12 months. It assumes 8 weekend discharge nurses today and $15,000 per readmission, both illustrative and shown on screen. The projection never drops below the weekday rate.
+- **Beat 6:** the three recommendations use the slider value from beat 5 (minimum 1). Copy summary uses the clipboard and falls back to a selectable text box.
+- **Tooltips:** the hover/tap tooltips became a readout line under each chart, which also works with arrow keys.
+- **Password protection:** HTTP Basic Auth in a Netlify edge function. The password is the `SITE_PASSWORD` environment variable, and the site stays locked if it is unset.
+- **Checks run:** no horizontal overflow at 375, 768 and 1280px; an automated axe audit (WCAG 2 A/AA and best practices) found no violations at those widths or with reduced motion on.

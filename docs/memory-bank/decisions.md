@@ -15,3 +15,4 @@
 | 11 | 2026-11-06 | Scatter uses two tones (weekend coral, weekday teal) and shows HF + COPD only | Weekday shifts overlap; all-condition correlation is weak (r 0.44) | Three tones, all conditions |
 | 12 | 2026-11-06 | What-if assumes 8 weekend nurses today, $15,000 per readmission, and never projects below the weekday rate | Keeps the estimate inside the observed pattern; assumptions shown on screen | Unbounded linear extrapolation |
 | 13 | 2026-11-06 | Beat 6 reuses the beat 5 slider value (minimum 1) | Summary numbers match what the reader just saw | Fixed +1 scenario |
+| 14 | 2026-11-06 | Deploy on Netlify with an edge-function Basic Auth gate, password in `SITE_PASSWORD` | Works on any plan, password stays out of the repo, fails closed | Vercel or Netlify built-in password (paid plans) |

@@ -3,15 +3,15 @@
 _Last updated: 2026-11-06 (Session 1)_
 
 ## Current focus
-All six beats built. Now the polish passes, then deploy.
+Build complete and checked. Remaining: deploy (needs the user's Netlify account).
 
 ## Next steps
-1. Empty/loading/error review, responsive pass (375/768/1280), reduced-motion fallback, accessibility pass (contrast, focus, headings, text alternatives).
-2. Update README (live URL, run steps) and sync BRIEF.md to what shipped.
-3. Deploy with password protection (Vercel or Netlify). Needs the user's account.
+1. Create the Netlify site from the GitHub repo, set `SITE_PASSWORD`, deploy, then verify the 401 gate on the live URL.
+2. Put the live URL in README and tick the "site live" item in BRIEF.md section 10.
+3. Delete `public/_frames.html`. Do a manual screen reader and real-device pass.
 
 ## Open questions
-- Which host for the password-protected deploy (Vercel or Netlify)?
+- None blocking. Vercel was the original idea; Netlify was chosen because the password gate is an edge function that works on any plan.
 
 ## Notes for next session
 - Memory bank lives in `docs/memory-bank/`; `docs/story-outline.md` and `docs/data-notes.md` hold the beat copy and data design.
