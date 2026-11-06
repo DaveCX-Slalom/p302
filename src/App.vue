@@ -5,6 +5,7 @@ import Beat2Break from './sections/Beat2Break.vue';
 import Beat3Where from './sections/Beat3Where.vue';
 import Beat4Why from './sections/Beat4Why.vue';
 import Beat5WhatIf from './sections/Beat5WhatIf.vue';
+import Beat6Takeaway from './sections/Beat6Takeaway.vue';
 import StateMessage from './components/StateMessage.vue';
 
 const { rows, status, error, retry } = useReadmissions();
@@ -23,6 +24,7 @@ const { rows, status, error, retry } = useReadmissions();
       <Beat3Where :rows="rows" />
       <Beat4Why :rows="rows" />
       <Beat5WhatIf :rows="rows" />
+      <Beat6Takeaway :rows="rows" />
     </template>
   </main>
   <footer>

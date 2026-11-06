@@ -13,3 +13,5 @@
 | 9 | 2026-11-06 | Fetch `readmissions.json` at runtime from `public/` | Needed to show real loading and error states | Static JSON import |
 | 10 | 2026-11-06 | Coral `#bf3a30`, grey marks `#76868a` | AA contrast for small labels | Lighter coral `#d9534a` (about 3.7:1) |
 | 11 | 2026-11-06 | Scatter uses two tones (weekend coral, weekday teal) and shows HF + COPD only | Weekday shifts overlap; all-condition correlation is weak (r 0.44) | Three tones, all conditions |
+| 12 | 2026-11-06 | What-if assumes 8 weekend nurses today, $15,000 per readmission, and never projects below the weekday rate | Keeps the estimate inside the observed pattern; assumptions shown on screen | Unbounded linear extrapolation |
+| 13 | 2026-11-06 | Beat 6 reuses the beat 5 slider value (minimum 1) | Summary numbers match what the reader just saw | Fixed +1 scenario |
